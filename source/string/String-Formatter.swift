@@ -20,4 +20,19 @@ public extension String {
         return self.compactMap { Int(String($0)) }.map { String($0) }.joined()
     }
     
+    /// Format a brazilian document to it's representative way.
+    /// Example:
+    ///     "01234567890" -> "012.345.678-90"
+    ///
+    /// - Returns: Formatted brazilian document if the string contains the right amount of number characters to do so.
+    func formattedBrazilianDocument() -> String? {
+        let numbers = self.compactMap { Int(String($0)) }
+        guard numbers.count == 11 else { return nil }
+        var cpf = numbers.map { String($0) }
+        cpf.insert("-", at: 9)
+        cpf.insert(".", at: 9 - 3)
+        cpf.insert(".", at: 9 - 3 - 3)
+        return cpf.joined()
+    }
+    
 }
