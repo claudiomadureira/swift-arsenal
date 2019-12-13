@@ -41,9 +41,9 @@ public extension String {
     ///
     /// - Returns: Formatted legal person brazilian document if the string contains the right amount of number characters to do so.
     func formattedCNPJ() -> String? {
-        let numbers = self.compactMap({ Int(String($0)) })
+        let numbers = self.compactMap { Int(String($0)) }
         guard numbers.count == 14 else { return nil }
-        var cnpj = numbers.map({ String($0) })
+        var cnpj = numbers.map { String($0) }
         cnpj.insert("-", at: 14 - 2)
         cnpj.insert("/", at: 14 - 2 - 4)
         cnpj.insert(".", at: 14 - 2 - 4 - 3)
@@ -51,5 +51,18 @@ public extension String {
         return cnpj.joined()
     }
     
+    /// Format a brazilian zipcode to it's representative way.
+    /// Example:
+    ///     "35400000" -> "35400-000"
+    ///
+    /// - Returns: Formatted brazilian zipcode if the string contains the right amount of number characters to do so.
+    func formattedZipcode() -> String {
+        let numbers = self.compactMap { Int(String($0)) }
+        guard numbers.count == 8 else { return nil }
+        var zipcode = numbers.map { String($0) }
+        zipcode.insert("-", at: 8 - 3)
+        return zipcode.joined()
+    }
+
     
 }
