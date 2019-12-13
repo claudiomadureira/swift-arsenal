@@ -9,7 +9,7 @@ import Foundation
 
 /// Looking forward to solve a such anoying problem I had with Apple's DateFormatter, this formatter manages to identify when the iPhone is on AM hour mode and handles to convert a String to Date when the date format uses to 24H hour mode (HH).
 /// Problem explanation:
-///     iPhone is on AM/PM mode. I want to convert a "1995-04-10 22:44:10" to a Date using "yyyy-MM-dd HH:mm:ss". Using Apple's DateFormatter, it fails to convert as you can see in the in the `isAMHourFormatEnabled` var.
+///     iPhone is on AM/PM mode. I want to convert a "1995-04-10 22:44:10" to a Date using "yyyy-MM-dd HH:mm:ss". Using Apple's DateFormatter, it fails to convert as you can see in the `isAMHourFormatEnabled` var.
 public class MSDateFormatter {
     
     /// When `dateFormat` value is nil, the formatter uses a default date format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'".
