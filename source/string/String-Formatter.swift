@@ -11,9 +11,9 @@ import Foundation
 public extension String {
     
     /// Filter just numbers and join them.
-    /// Examples:
-    ///     `Brazilian document`: "012.345.678-90" -> "01234567890"
-    ///     `Formatted phone`: "(31) 9 9999-8888" -> "31999998888"
+    /// `Examples`:
+    ///     _Brazilian document_: "012.345.678-90" -> "01234567890"
+    ///     _Formatted phone_: "(31) 9 9999-8888" -> "31999998888"
     ///
     /// - Returns: Just numbers in the String.
     func rawNumbers() -> String {
@@ -21,7 +21,7 @@ public extension String {
     }
     
     /// Format a physical person brazilian document to it's representative way.
-    /// Example:
+    /// `Example`:
     ///     "01234567890" -> "012.345.678-90"
     ///
     /// - Returns: Formatted brazilian document if the string contains the right amount of number characters to do so.
@@ -36,7 +36,7 @@ public extension String {
     }
     
     /// Format a legal person brazilian document to it's representative way.
-    /// Example:
+    /// `Example`:
     ///     "12345678000123" -> "12.345.678/0001-23"
     ///
     /// - Returns: Formatted legal person brazilian document if the string contains the right amount of number characters to do so.
@@ -52,7 +52,7 @@ public extension String {
     }
     
     /// Format a brazilian zipcode to it's representative way.
-    /// Example:
+    /// `Example`:
     ///     "35400000" -> "35400-000"
     ///
     /// - Returns: Formatted brazilian zipcode if the string contains the right amount of number characters to do so.
@@ -65,7 +65,7 @@ public extension String {
     }
     
     /// Format a brazilian phone number to it's respective number count representative way.
-    /// Examples:
+    /// `Examples`:
     ///     "84248008" -> "8424-8008"
     ///     "984248008" -> "9 8424-8008"
     ///     "3184248008" -> "(31) 8424-8008"
