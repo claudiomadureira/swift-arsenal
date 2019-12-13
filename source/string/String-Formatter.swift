@@ -20,12 +20,12 @@ public extension String {
         return self.compactMap { Int(String($0)) }.map { String($0) }.joined()
     }
     
-    /// Format a brazilian document to it's representative way.
+    /// Format a physical person brazilian document to it's representative way.
     /// Example:
     ///     "01234567890" -> "012.345.678-90"
     ///
     /// - Returns: Formatted brazilian document if the string contains the right amount of number characters to do so.
-    func formattedBrazilianDocument() -> String? {
+    func formattedCPF() -> String? {
         let numbers = self.compactMap { Int(String($0)) }
         guard numbers.count == 11 else { return nil }
         var cpf = numbers.map { String($0) }
@@ -34,5 +34,22 @@ public extension String {
         cpf.insert(".", at: 9 - 3 - 3)
         return cpf.joined()
     }
+    
+    /// Format a legal person brazilian document to it's representative way.
+    /// Example:
+    ///     "12345678000123" -> "12.345.678/0001-23"
+    ///
+    /// - Returns: Formatted legal person brazilian document if the string contains the right amount of number characters to do so.
+    func formattedCNPJ() -> String? {
+        let numbers = self.compactMap({ Int(String($0)) })
+        guard numbers.count == 14 else { return nil }
+        var cnpj = numbers.map({ String($0) })
+        cnpj.insert("-", at: 14 - 2)
+        cnpj.insert("/", at: 14 - 2 - 4)
+        cnpj.insert(".", at: 14 - 2 - 4 - 3)
+        cnpj.insert(".", at: 14 - 2 - 4 - 3 - 3)
+        return cnpj.joined()
+    }
+    
     
 }
