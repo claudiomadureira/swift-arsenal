@@ -1,13 +1,13 @@
 //
 //  ListenerManager.swift
-//  Gerencianet-Lite
 //
 //  Created by Claudio Madureira on 22/11/19.
-//  Copyright © 2019 Usemobile. All rights reserved.
 //
 
 import UIKit
 
+/// The listener manager has an odd feature which it unbinds the listener that was deallocated from memory.
+/// This is the ListenerMemoryManagerWrapper's goal.
 open class ListenerManager<ListenerValue> {
     
     public typealias CustomListener = Listener<ListenerValue>
@@ -22,7 +22,9 @@ open class ListenerManager<ListenerValue> {
         
     }
     
-    /// Faz a ligação do listener dentro do gerenciador. Caso faça a ligação retorna `true` se não `false`.
+    /// Bind the listener in the manager.
+    ///
+    /// - Returns: If it succeded to bind the listener.
     @discardableResult
     public func bind(_ listener: CustomListener) -> Bool {
         for memoryManagedListener in self.memoryManagedListeners {
@@ -36,7 +38,9 @@ open class ListenerManager<ListenerValue> {
         return true
     }
     
-    /// Remove a ligação do listener dentro do gerenciador. Caso remova a ligação retorna `true` se não `false`.
+    /// Unbind the listener in the manager.
+    ///
+    /// - Returns: If it succeded to unbind the listener.
     @discardableResult
     public func unbind(_ listener: CustomListener) -> Bool {
         for memoryManagedListener in self.memoryManagedListeners {
