@@ -19,18 +19,18 @@ class StringFormatterTests: XCTestCase {
     }
     
     func testRawNumbersAppliedToBrazilianDocument() {
-        let phone: String = "012.345.678-90"
-        XCTAssertEqual(phone.rawNumbers(), "01234567890")
+        let document: String = "012.345.678-90"
+        XCTAssertEqual(document.rawNumbers(), "01234567890")
     }
     
     func testRawNumbersAppliedToPersonName() {
-        let phone: String = "Claudio Madureira Silva Filho"
-        XCTAssertEqual(phone.rawNumbers(), "")
+        let name: String = "Claudio Madureira Silva Filho"
+        XCTAssertEqual(name.rawNumbers(), "")
     }
     
     func testRawNumbersAppliedToDate() {
-        let phone: String = "1995-04-10"
-        XCTAssertEqual(phone.rawNumbers(), "19950410")
+        let date: String = "1995-04-10"
+        XCTAssertEqual(date.rawNumbers(), "19950410")
     }
 
 }
