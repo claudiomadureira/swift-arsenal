@@ -127,6 +127,7 @@ class StringFormatterTests: XCTestCase {
         XCTAssertEqual(example1.formattedBrazilianPhone(), nil)
         let example2: String = "8424800"
         XCTAssertEqual(example2.formattedBrazilianPhone(), nil)
+        // It continues for any length that's different from 8, 9, 10 and 11.
     }
     
 }
