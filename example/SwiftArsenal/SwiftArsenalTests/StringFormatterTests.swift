@@ -79,5 +79,25 @@ class StringFormatterTests: XCTestCase {
         // It continues for any length that's different from 14.
     }
     
+    // MARK: - Method `FormattedZipcode`
+    
+    func testFormattedZipcodeOnExpectedNumberLength() {
+        let cleanZipcode: String = "30190111"
+        XCTAssertEqual(cleanZipcode.formattedZipcode(), "30190-111")
+        let formattedZipcode: String = "30190-111"
+        XCTAssertEqual(formattedZipcode.formattedZipcode(), "30190-111")
+    }
+    
+    func testFormattedZipcodeOnUnexpectedNumberLength() {
+        let example1: String = "301901112"
+        XCTAssertEqual(example1.formattedZipcode(), nil)
+        let example2: String = "3019011"
+        XCTAssertEqual(example2.formattedZipcode(), nil)
+        let example3: String = "301901"
+        XCTAssertEqual(example3.formattedZipcode(), nil)
+        let example4: String = "30190"
+        XCTAssertEqual(example4.formattedZipcode(), nil)
+        // It continues for any length that's different from 8.
+    }
 
 }
