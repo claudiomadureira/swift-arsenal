@@ -10,7 +10,7 @@ import XCTest
 @testable import SwiftArsenal
 
 class StringFormatterTests: XCTestCase {
-
+    
     // MARK: - Method `RawNumbers`
     
     func testRawNumbersAppliedToPhone() {
@@ -99,5 +99,34 @@ class StringFormatterTests: XCTestCase {
         XCTAssertEqual(example4.formattedZipcode(), nil)
         // It continues for any length that's different from 8.
     }
-
+    
+    // MARK: - Method `FormattedBrazilianPhone`
+    
+    func testFormattedBrazilianPhoneWith8Digits() {
+        let cleanPhone: String = "84248008"
+        XCTAssertEqual(cleanPhone.formattedBrazilianPhone(), "8424-8008")
+    }
+    
+    func testFormattedBrazilianPhoneWith9Digits() {
+        let cleanPhone: String = "984248008"
+        XCTAssertEqual(cleanPhone.formattedBrazilianPhone(), "9 8424-8008")
+    }
+    
+    func testFormattedBrazilianPhoneWith10Digits() {
+        let cleanPhone: String = "3184248008"
+        XCTAssertEqual(cleanPhone.formattedBrazilianPhone(), "(31) 8424-8008")
+    }
+    
+    func testFormattedBrazilianPhoneWith11Digits() {
+        let cleanPhone: String = "31984248008"
+        XCTAssertEqual(cleanPhone.formattedBrazilianPhone(), "(31) 9 8424-8008")
+    }
+    
+    func testFormattedBrazilianPhoneUnexpectedLength() {
+        let example1: String = "319842480089"
+        XCTAssertEqual(example1.formattedBrazilianPhone(), nil)
+        let example2: String = "8424800"
+        XCTAssertEqual(example2.formattedBrazilianPhone(), nil)
+    }
+    
 }
