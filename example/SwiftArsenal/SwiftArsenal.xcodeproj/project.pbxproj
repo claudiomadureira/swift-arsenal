@@ -17,6 +17,7 @@
 		25A9FB6123DF588400D46895 /* StringFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A9FB6023DF588400D46895 /* StringFormatterTests.swift */; };
 		25C8817F23E22D3900743154 /* ListenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C8817E23E22D3900743154 /* ListenerTests.swift */; };
 		25C8818423E22E3F00743154 /* ListenerManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C8818323E22E3F00743154 /* ListenerManagerTests.swift */; };
+		25CC30E123EDAB1D00320683 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC30E023EDAB1D00320683 /* NibLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		25A9FB6023DF588400D46895 /* StringFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringFormatterTests.swift; sourceTree = "<group>"; };
 		25C8817E23E22D3900743154 /* ListenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerTests.swift; sourceTree = "<group>"; };
 		25C8818323E22E3F00743154 /* ListenerManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerManagerTests.swift; sourceTree = "<group>"; };
+		25CC30E023EDAB1D00320683 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		25A9FB5223DF584900D46895 /* object */ = {
 			isa = PBXGroup;
 			children = (
+				25CC30DF23EDAB1D00320683 /* nibloadable */,
 				25A9FB5323DF584900D46895 /* listener */,
 			);
 			path = object;
@@ -170,6 +173,14 @@
 				25C8818323E22E3F00743154 /* ListenerManagerTests.swift */,
 			);
 			path = listener;
+			sourceTree = "<group>";
+		};
+		25CC30DF23EDAB1D00320683 /* nibloadable */ = {
+			isa = PBXGroup;
+			children = (
+				25CC30E023EDAB1D00320683 /* NibLoadable.swift */,
+			);
+			path = nibloadable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 				25A9FB5B23DF584900D46895 /* ListenerManager.swift in Sources */,
 				25A9FB5E23DF584900D46895 /* String-Formatter.swift in Sources */,
 				25A9FB5C23DF584900D46895 /* Listener.swift in Sources */,
+				25CC30E123EDAB1D00320683 /* NibLoadable.swift in Sources */,
 				25A9FB5D23DF584900D46895 /* String-Inspector.swift in Sources */,
 				25A9FB5F23DF584900D46895 /* MSDateFormatter.swift in Sources */,
 			);

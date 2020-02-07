@@ -50,7 +50,9 @@ public extension String {
     ///
     /// `Throws` an Error in case the string doesn't match the required format.
     func validateEmail() throws {
-        let regex = try NSRegularExpression(pattern: "^[A-Za-z0-9_\\-]+(?:[.][A-Za-z0-9_\\-]+)*@[A-Za-z0-9_]+(?:[-.][A-Za-z0-9_]+)*\\.[A-Za-z0-9_]+$", options: .caseInsensitive)
+        let regex = try NSRegularExpression(
+            pattern: "^[A-Za-z0-9_\\-]+(?:[.][A-Za-z0-9_\\-]+)*@[A-Za-z0-9_]+(?:[-.][A-Za-z0-9_]+)*\\.[A-Za-z0-9_]+$",
+            options: .caseInsensitive)
         if regex.firstMatch(
             in: self,
             options: NSRegularExpression.MatchingOptions(rawValue: 0),
