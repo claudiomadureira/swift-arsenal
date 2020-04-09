@@ -18,6 +18,7 @@
 		25C8817F23E22D3900743154 /* ListenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C8817E23E22D3900743154 /* ListenerTests.swift */; };
 		25C8818423E22E3F00743154 /* ListenerManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C8818323E22E3F00743154 /* ListenerManagerTests.swift */; };
 		25CC30E123EDAB1D00320683 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC30E023EDAB1D00320683 /* NibLoadable.swift */; };
+		25CC510B243EBAF400F46DC0 /* Extension-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC510A243EBAF400F46DC0 /* Extension-UIImage.swift */; };
 		6716C2F023F2BFB30089F087 /* ExtensionCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6716C2EF23F2BFB30089F087 /* ExtensionCollectionTests.swift */; };
 		67B32B8023F1D262000356D1 /* Extension-Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B32B7F23F1D262000356D1 /* Extension-Collection.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		25C8817E23E22D3900743154 /* ListenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerTests.swift; sourceTree = "<group>"; };
 		25C8818323E22E3F00743154 /* ListenerManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerManagerTests.swift; sourceTree = "<group>"; };
 		25CC30E023EDAB1D00320683 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		25CC510A243EBAF400F46DC0 /* Extension-UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-UIImage.swift"; sourceTree = "<group>"; };
 		6716C2EF23F2BFB30089F087 /* ExtensionCollectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionCollectionTests.swift; sourceTree = "<group>"; };
 		67B32B7F23F1D262000356D1 /* Extension-Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension-Collection.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				67B32B7F23F1D262000356D1 /* Extension-Collection.swift */,
+				25CC510A243EBAF400F46DC0 /* Extension-UIImage.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				25A9FB5E23DF584900D46895 /* String-Formatter.swift in Sources */,
 				25A9FB5C23DF584900D46895 /* Listener.swift in Sources */,
 				25CC30E123EDAB1D00320683 /* NibLoadable.swift in Sources */,
+				25CC510B243EBAF400F46DC0 /* Extension-UIImage.swift in Sources */,
 				25A9FB5D23DF584900D46895 /* String-Inspector.swift in Sources */,
 				25A9FB5F23DF584900D46895 /* MSDateFormatter.swift in Sources */,
 			);

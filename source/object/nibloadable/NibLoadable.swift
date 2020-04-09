@@ -1,9 +1,7 @@
 //
 //  NibLoadable.swift
-//  SwiftArsenal
 //
 //  Created by Claudio Madureira Silva Filho on 2/7/20.
-//  Copyright © 2020 Claudio Madureira Silva Filho. All rights reserved.
 //
 
 import UIKit
