@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25253A9E244BC671009CDFAD /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25253A9B244BC671009CDFAD /* iPhone.swift */; };
+		25253AA2244BC689009CDFAD /* ScreenMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25253AA0244BC689009CDFAD /* ScreenMargin.swift */; };
+		25253AA3244BC689009CDFAD /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25253AA1244BC689009CDFAD /* Screen.swift */; };
 		25A9FB4123DF583200D46895 /* SwiftArsenal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A9FB3723DF583200D46895 /* SwiftArsenal.framework */; };
 		25A9FB4823DF583200D46895 /* SwiftArsenal.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A9FB3A23DF583200D46895 /* SwiftArsenal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25A9FB5B23DF584900D46895 /* ListenerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A9FB5423DF584900D46895 /* ListenerManager.swift */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25253A9B244BC671009CDFAD /* iPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		25253AA0244BC689009CDFAD /* ScreenMargin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenMargin.swift; sourceTree = "<group>"; };
+		25253AA1244BC689009CDFAD /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		25A9FB3723DF583200D46895 /* SwiftArsenal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftArsenal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A9FB3A23DF583200D46895 /* SwiftArsenal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftArsenal.h; sourceTree = "<group>"; };
 		25A9FB3B23DF583200D46895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +78,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25253A9A244BC671009CDFAD /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				25253A9B244BC671009CDFAD /* iPhone.swift */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		25253A9F244BC689009CDFAD /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				25253AA0244BC689009CDFAD /* ScreenMargin.swift */,
+				25253AA1244BC689009CDFAD /* Screen.swift */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
 		25A9FB2D23DF583200D46895 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +149,8 @@
 		25A9FB5223DF584900D46895 /* object */ = {
 			isa = PBXGroup;
 			children = (
+				25253A9F244BC689009CDFAD /* screen */,
+				25253A9A244BC671009CDFAD /* iPhone */,
 				25CC30DF23EDAB1D00320683 /* nibloadable */,
 				25A9FB5323DF584900D46895 /* listener */,
 			);
@@ -318,13 +343,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				67B32B8023F1D262000356D1 /* Extension-Collection.swift in Sources */,
+				25253AA2244BC689009CDFAD /* ScreenMargin.swift in Sources */,
 				25A9FB5B23DF584900D46895 /* ListenerManager.swift in Sources */,
 				25A9FB5E23DF584900D46895 /* String-Formatter.swift in Sources */,
+				25253AA3244BC689009CDFAD /* Screen.swift in Sources */,
 				25A9FB5C23DF584900D46895 /* Listener.swift in Sources */,
 				25CC30E123EDAB1D00320683 /* NibLoadable.swift in Sources */,
 				25CC510B243EBAF400F46DC0 /* Extension-UIImage.swift in Sources */,
 				25A9FB5D23DF584900D46895 /* String-Inspector.swift in Sources */,
 				25A9FB5F23DF584900D46895 /* MSDateFormatter.swift in Sources */,
+				25253A9E244BC671009CDFAD /* iPhone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
