@@ -1,14 +1,13 @@
 //
-//  iPhone.swift
-//  SwiftDebugger
+//  iPhoneSreen.swift
 //
 //  Created by Claudio Madureira Silva Filho on 4/18/20.
-//  Copyright © 2020 Claudio Madureira Silva Filho. All rights reserved.
+//  Copyright © 2020. All rights reserved.
 //
 
 import UIKit
 
-enum iPhone {
+public enum iPhoneSreen {
     
     case iPhone4
     
@@ -30,8 +29,19 @@ enum iPhone {
     /// Also iPhones 11 Pro Max.
     case iPhoneXSMax
     
+    public var isInfiniteScreen: Bool {
+        switch self {
+        case .iPhoneXR,
+             .iPhoneX,
+             .iPhoneXSMax:
+            return true
+        default:
+            return false
+        }
+    }
+    
     /// The current iPhone running the app.
-    static var current: iPhone {
+    public static var current: iPhoneSreen {
         switch UIScreen.main.bounds {
         case Screen.iPhone4:
             return .iPhone4
