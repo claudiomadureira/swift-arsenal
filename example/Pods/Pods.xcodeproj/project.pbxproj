@@ -10,6 +10,7 @@
 		023F01144460033BB8B42FE1270E8C1B /* ScreenMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F90A4BEF19D4D0FF1DC56BF0FAD409 /* ScreenMargin.swift */; };
 		052730A75973EFE99C364990206367F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1FA473457914C3AF5707659786A6E82F /* Pods-Arsenal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B9051447D01A704AEE2849E1B46868 /* Pods-Arsenal_Tests-dummy.m */; };
+		2524844B24579D30007B9BFA /* SwiftArsenal.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2524844A24579D30007B9BFA /* SwiftArsenal.podspec */; };
 		26C6BDD27FEDAB3D6EA79023B0EF1C0D /* Extension-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C068B436DB2E04ACBB43F4B2CBB6FB /* Extension-UIImage.swift */; };
 		32919EBC2CA52595A9230CEAAE04F47C /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4360AD254EFE1F95DFE8147136C19 /* NibLoadable.swift */; };
 		3C76B9C0C0E79815B5588EA8EDBC189F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -57,6 +58,7 @@
 		080114E5BA2BE1E3B3AC1DA69C4552FC /* String-Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String-Formatter.swift"; sourceTree = "<group>"; };
 		0EE44AA124943A574C2C220B95E7AAAC /* Pods-Arsenal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arsenal_Example-dummy.m"; sourceTree = "<group>"; };
 		1396FD2A6D2CF7F98EABB930D352363D /* iPad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPad.swift; sourceTree = "<group>"; };
+		2524844A24579D30007B9BFA /* SwiftArsenal.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftArsenal.podspec; sourceTree = "<group>"; };
 		28BB740A3C59A87C2F1EADBDD2D30C10 /* Pods-Arsenal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arsenal_Tests-umbrella.h"; sourceTree = "<group>"; };
 		28CF9E9351587B1FAF841402D6EF1497 /* Pods-Arsenal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2B5D823C1615753D519548CB89EDFFF8 /* ListenerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListenerManager.swift; sourceTree = "<group>"; };
@@ -68,7 +70,6 @@
 		568794007B7A654DEEDBAA2C3AD25D93 /* Pods-Arsenal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arsenal_Example-frameworks.sh"; sourceTree = "<group>"; };
 		597F145850EDCFEDED495BAD57C55A4C /* Arsenal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Arsenal-Info.plist"; sourceTree = "<group>"; };
 		5D6CE477C935BDF1321C3185229ECB4C /* Pods-Arsenal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Arsenal_Example.modulemap"; sourceTree = "<group>"; };
-		5E85D42535909D838B529700F8C08A4B /* Arsenal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Arsenal.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F88B8DC1ED88FC809D6BD9D34B239C3 /* Screen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		5FAB237B929A88E54545758BB6502060 /* Pods-Arsenal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arsenal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		813B7E13B6560B3A350DB5495D76D7C1 /* iPhoneSreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPhoneSreen.swift; sourceTree = "<group>"; };
@@ -224,7 +225,7 @@
 		904F052D899452828594B15E3B0B4C81 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5E85D42535909D838B529700F8C08A4B /* Arsenal.podspec */,
+				2524844A24579D30007B9BFA /* SwiftArsenal.podspec */,
 				B93056C8C9ADE5711A0DC105EE4F429F /* LICENSE */,
 				B9AA5813C772343E7375F71C2FD9C447 /* README.md */,
 			);
@@ -463,6 +464,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2524844B24579D30007B9BFA /* SwiftArsenal.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
