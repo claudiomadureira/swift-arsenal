@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'Arsenal_Example' do
+  pod 'Arsenal', :path => '../'
+
+  target 'Arsenal_Tests' do
+    inherit! :search_paths
+  end
+end

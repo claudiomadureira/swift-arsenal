@@ -1,0 +1,16 @@
+PODS:
+  - Arsenal (0.1.0)
+
+DEPENDENCIES:
+  - Arsenal (from `../`)
+
+EXTERNAL SOURCES:
+  Arsenal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Arsenal: 8359cdbdbaf7b23468c116804dd7ffaf530dfb9a
+
+PODFILE CHECKSUM: 9018734447046dd916a211e11a2e96f857e62e78
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module Arsenal {
+  umbrella header "Arsenal-umbrella.h"
+
+  export *
+  module * { export * }
+}

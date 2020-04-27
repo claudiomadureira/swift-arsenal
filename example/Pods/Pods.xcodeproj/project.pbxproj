@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023F01144460033BB8B42FE1270E8C1B /* ScreenMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F90A4BEF19D4D0FF1DC56BF0FAD409 /* ScreenMargin.swift */; };
+		052730A75973EFE99C364990206367F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1FA473457914C3AF5707659786A6E82F /* Pods-Arsenal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B9051447D01A704AEE2849E1B46868 /* Pods-Arsenal_Tests-dummy.m */; };
+		26C6BDD27FEDAB3D6EA79023B0EF1C0D /* Extension-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C068B436DB2E04ACBB43F4B2CBB6FB /* Extension-UIImage.swift */; };
+		32919EBC2CA52595A9230CEAAE04F47C /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4360AD254EFE1F95DFE8147136C19 /* NibLoadable.swift */; };
+		3C76B9C0C0E79815B5588EA8EDBC189F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		453AA3745FAF6423D42C7E097C1EA4BF /* ListenerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D823C1615753D519548CB89EDFFF8 /* ListenerManager.swift */; };
+		53143BDCE66C845CE8C459F336A32EA9 /* Pods-Arsenal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE44AA124943A574C2C220B95E7AAAC /* Pods-Arsenal_Example-dummy.m */; };
+		540A7F9EE43CA986E113D2836008D87F /* Arsenal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D829F70A242C55D8704F0CD7C61CC3 /* Arsenal-dummy.m */; };
+		5E86671ABABF0C8D336181D2CA4D8430 /* Pods-Arsenal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3444B9466D01B8199914168E475D8CB /* Pods-Arsenal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		682145DBD42F4492AC3A65FCAB1F50F5 /* String-Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080114E5BA2BE1E3B3AC1DA69C4552FC /* String-Formatter.swift */; };
+		690C754B1CEA3CD87A51DB321E1DFE70 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E633DEE5F23F249D31E030D98749D3A /* iPhone.swift */; };
+		6D3DD531695013FC6B87CBCFFB186D82 /* iPhoneSreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B7E13B6560B3A350DB5495D76D7C1 /* iPhoneSreen.swift */; };
+		6E3DD1429AFC16E99B36F17C06937E4A /* Extension-Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8B57157698B5F8216716937A62816 /* Extension-Collection.swift */; };
+		72AC18A9ADA5FE36A34906FBE2B08A11 /* Pods-Arsenal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BB740A3C59A87C2F1EADBDD2D30C10 /* Pods-Arsenal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D7E0F66A9BF4543ED8332CA1E65B7ED /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA480EDC434D3606C3CA63CC8A348EA7 /* Listener.swift */; };
+		82217E19BE7C763818E0968577A64C46 /* iPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1AE467DA02AE34497B7F194C12ABE /* iPod.swift */; };
+		847B233B9D4C68B5B7A95C69FB197F02 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88B8DC1ED88FC809D6BD9D34B239C3 /* Screen.swift */; };
+		87DD8D97CEEE96F179F746393D61B82B /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9807D4A8A7A70C2CD9938D4ABF974425 /* Device.swift */; };
+		8839DCBB2CCD24267246D69905A45648 /* iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1396FD2A6D2CF7F98EABB930D352363D /* iPad.swift */; };
+		8D023F462DC7F9406673D3B34894B16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DC1F3835EF6703B33A685CBD6DB13ABE /* String-Inspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68B4C0A7DEDE02808B5F40036EC204 /* String-Inspector.swift */; };
+		E3E9CFE0C47718A5492DB84129B6B46D /* Arsenal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F9B28D28E1E337AE92EF6BA93C1011 /* Arsenal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B356FF8602E0532524848B8E56B3F1 /* MSDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A44BAE57B22584E6AD47A5C7128E4B /* MSDateFormatter.swift */; };
+		F2071E58DB82D8ED2C93693BFECF3540 /* AppleTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA063C664F6149263DDB556E0928CE20 /* AppleTV.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D9D8980807B7BFCEE9523FC663D264F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3CB8C5760EDDB936ABAF0566AC3799;
+			remoteInfo = "Pods-Arsenal_Example";
+		};
+		8F0ECEA30ED6ECE821E74983008793EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE748E0B353BBCCD12F1A8CF5A20B199;
+			remoteInfo = Arsenal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020C49CC64CD15395EAC36C9C8208B71 /* Arsenal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arsenal.release.xcconfig; sourceTree = "<group>"; };
+		03D829F70A242C55D8704F0CD7C61CC3 /* Arsenal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Arsenal-dummy.m"; sourceTree = "<group>"; };
+		080114E5BA2BE1E3B3AC1DA69C4552FC /* String-Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String-Formatter.swift"; sourceTree = "<group>"; };
+		0EE44AA124943A574C2C220B95E7AAAC /* Pods-Arsenal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arsenal_Example-dummy.m"; sourceTree = "<group>"; };
+		1396FD2A6D2CF7F98EABB930D352363D /* iPad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPad.swift; sourceTree = "<group>"; };
+		28BB740A3C59A87C2F1EADBDD2D30C10 /* Pods-Arsenal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arsenal_Tests-umbrella.h"; sourceTree = "<group>"; };
+		28CF9E9351587B1FAF841402D6EF1497 /* Pods-Arsenal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B5D823C1615753D519548CB89EDFFF8 /* ListenerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListenerManager.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CA8F7BA9B7AFF87721D11A4CA26B18F /* Arsenal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Arsenal.framework; path = Arsenal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E633DEE5F23F249D31E030D98749D3A /* iPhone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		50C70FC9C86C7BE6A2C926404A082DD3 /* Pods-Arsenal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arsenal_Example.release.xcconfig"; sourceTree = "<group>"; };
+		54D4360AD254EFE1F95DFE8147136C19 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		568794007B7A654DEEDBAA2C3AD25D93 /* Pods-Arsenal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arsenal_Example-frameworks.sh"; sourceTree = "<group>"; };
+		597F145850EDCFEDED495BAD57C55A4C /* Arsenal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Arsenal-Info.plist"; sourceTree = "<group>"; };
+		5D6CE477C935BDF1321C3185229ECB4C /* Pods-Arsenal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Arsenal_Example.modulemap"; sourceTree = "<group>"; };
+		5E85D42535909D838B529700F8C08A4B /* Arsenal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Arsenal.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F88B8DC1ED88FC809D6BD9D34B239C3 /* Screen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		5FAB237B929A88E54545758BB6502060 /* Pods-Arsenal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arsenal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		813B7E13B6560B3A350DB5495D76D7C1 /* iPhoneSreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPhoneSreen.swift; sourceTree = "<group>"; };
+		837AA146898EEDD832A0F22013467A4B /* Pods-Arsenal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Arsenal_Tests.modulemap"; sourceTree = "<group>"; };
+		839AE52A48FA0FD5EDD40A95695AF376 /* Pods-Arsenal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		83A44BAE57B22584E6AD47A5C7128E4B /* MSDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSDateFormatter.swift; sourceTree = "<group>"; };
+		890F4522F38D1C7B3FED2EAAC89D6384 /* Pods-Arsenal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arsenal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EC7891F2DC32AE2A8115B9BEDB0E3A8 /* Arsenal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arsenal-prefix.pch"; sourceTree = "<group>"; };
+		8FF35974D13E180BF7B59DD56EB785C3 /* Pods-Arsenal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arsenal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90C068B436DB2E04ACBB43F4B2CBB6FB /* Extension-UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension-UIImage.swift"; sourceTree = "<group>"; };
+		94F6660AC445FE085FCB6AD7D5F368E9 /* Arsenal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arsenal.debug.xcconfig; sourceTree = "<group>"; };
+		9807D4A8A7A70C2CD9938D4ABF974425 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		98CC23B3286EDDCF58821EA95FE0CDD6 /* Pods-Arsenal_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7F9B28D28E1E337AE92EF6BA93C1011 /* Arsenal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arsenal-umbrella.h"; sourceTree = "<group>"; };
+		AEF1AE467DA02AE34497B7F194C12ABE /* iPod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPod.swift; sourceTree = "<group>"; };
+		B3444B9466D01B8199914168E475D8CB /* Pods-Arsenal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arsenal_Example-umbrella.h"; sourceTree = "<group>"; };
+		B4F90A4BEF19D4D0FF1DC56BF0FAD409 /* ScreenMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenMargin.swift; sourceTree = "<group>"; };
+		B93056C8C9ADE5711A0DC105EE4F429F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B9AA5813C772343E7375F71C2FD9C447 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BA063C664F6149263DDB556E0928CE20 /* AppleTV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppleTV.swift; sourceTree = "<group>"; };
+		BA480EDC434D3606C3CA63CC8A348EA7 /* Listener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+		BB68B4C0A7DEDE02808B5F40036EC204 /* String-Inspector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String-Inspector.swift"; sourceTree = "<group>"; };
+		BD90485004D0DC6B5ECB8C85051C35BF /* Pods_Arsenal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Arsenal_Tests.framework; path = "Pods-Arsenal_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD5C15A6E13337AD19E985A7F3807C5 /* Pods_Arsenal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Arsenal_Example.framework; path = "Pods-Arsenal_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF5F49E82636FE402D947B211F54F56 /* Pods-Arsenal_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Example-Info.plist"; sourceTree = "<group>"; };
+		D3F8B57157698B5F8216716937A62816 /* Extension-Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension-Collection.swift"; sourceTree = "<group>"; };
+		E1E6C82AFD0855115817D75D7060A836 /* Arsenal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Arsenal.modulemap; sourceTree = "<group>"; };
+		E686D1CD8DA78659691F4007247311A8 /* Pods-Arsenal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arsenal_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F0B9051447D01A704AEE2849E1B46868 /* Pods-Arsenal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arsenal_Tests-dummy.m"; sourceTree = "<group>"; };
+		F87C3447B17F1E8E646F1D62E746C568 /* Pods-Arsenal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arsenal_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227EF2C831295E567F638A201AEF43A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D023F462DC7F9406673D3B34894B16D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F78972843B15867EADADBF62D4686A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C76B9C0C0E79815B5588EA8EDBC189F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5BBCF0B006FA27856A37FA5B11527B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052730A75973EFE99C364990206367F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054A4ED47574C0521106AF4F492B3B79 /* object */ = {
+			isa = PBXGroup;
+			children = (
+				18A217E361287A05C14D56C6F23EC150 /* device */,
+				C7249EAE709D17A873DE3893844EE93C /* listener */,
+				EF2AF130FEA95F1F8EE130114526BD7B /* nibloadable */,
+				D7C1CE91CA26A461659CE9178FBB2DCC /* screen */,
+			);
+			name = object;
+			path = Arsenal/Classes/source/object;
+			sourceTree = "<group>";
+		};
+		0CDC2D1C24B0BBFE412FFB23E0E44E5A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1632A1C06F8EBDA08B82F19B8961321F /* Arsenal */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0ECDAF59AAD799EE997107885C608172 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				080114E5BA2BE1E3B3AC1DA69C4552FC /* String-Formatter.swift */,
+				BB68B4C0A7DEDE02808B5F40036EC204 /* String-Inspector.swift */,
+			);
+			name = string;
+			path = Arsenal/Classes/source/string;
+			sourceTree = "<group>";
+		};
+		1632A1C06F8EBDA08B82F19B8961321F /* Arsenal */ = {
+			isa = PBXGroup;
+			children = (
+				9A41E780D4E2609D09C7C92A9734401F /* date-formatter */,
+				AA24F31C654F1472B8A49C3998F7A265 /* extensions */,
+				054A4ED47574C0521106AF4F492B3B79 /* object */,
+				904F052D899452828594B15E3B0B4C81 /* Pod */,
+				0ECDAF59AAD799EE997107885C608172 /* string */,
+				C9675667D4498D6D5817368C2D1C9CC3 /* Support Files */,
+			);
+			name = Arsenal;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		18A217E361287A05C14D56C6F23EC150 /* device */ = {
+			isa = PBXGroup;
+			children = (
+				BA063C664F6149263DDB556E0928CE20 /* AppleTV.swift */,
+				9807D4A8A7A70C2CD9938D4ABF974425 /* Device.swift */,
+				1396FD2A6D2CF7F98EABB930D352363D /* iPad.swift */,
+				4E633DEE5F23F249D31E030D98749D3A /* iPhone.swift */,
+				AEF1AE467DA02AE34497B7F194C12ABE /* iPod.swift */,
+			);
+			name = device;
+			path = device;
+			sourceTree = "<group>";
+		};
+		2FA71F9640B831AE450D51BC0096C80D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5CAE1BE833B2799B40F73A033AF0AD7 /* Pods-Arsenal_Example */,
+				5B109A10AE3F157D06C5B42BD084B596 /* Pods-Arsenal_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		321BD127C680780B264B54217623FB9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CA8F7BA9B7AFF87721D11A4CA26B18F /* Arsenal.framework */,
+				CFD5C15A6E13337AD19E985A7F3807C5 /* Pods_Arsenal_Example.framework */,
+				BD90485004D0DC6B5ECB8C85051C35BF /* Pods_Arsenal_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B109A10AE3F157D06C5B42BD084B596 /* Pods-Arsenal_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				837AA146898EEDD832A0F22013467A4B /* Pods-Arsenal_Tests.modulemap */,
+				890F4522F38D1C7B3FED2EAAC89D6384 /* Pods-Arsenal_Tests-acknowledgements.markdown */,
+				28CF9E9351587B1FAF841402D6EF1497 /* Pods-Arsenal_Tests-acknowledgements.plist */,
+				F0B9051447D01A704AEE2849E1B46868 /* Pods-Arsenal_Tests-dummy.m */,
+				98CC23B3286EDDCF58821EA95FE0CDD6 /* Pods-Arsenal_Tests-Info.plist */,
+				28BB740A3C59A87C2F1EADBDD2D30C10 /* Pods-Arsenal_Tests-umbrella.h */,
+				5FAB237B929A88E54545758BB6502060 /* Pods-Arsenal_Tests.debug.xcconfig */,
+				E686D1CD8DA78659691F4007247311A8 /* Pods-Arsenal_Tests.release.xcconfig */,
+			);
+			name = "Pods-Arsenal_Tests";
+			path = "Target Support Files/Pods-Arsenal_Tests";
+			sourceTree = "<group>";
+		};
+		904F052D899452828594B15E3B0B4C81 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5E85D42535909D838B529700F8C08A4B /* Arsenal.podspec */,
+				B93056C8C9ADE5711A0DC105EE4F429F /* LICENSE */,
+				B9AA5813C772343E7375F71C2FD9C447 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9A41E780D4E2609D09C7C92A9734401F /* date-formatter */ = {
+			isa = PBXGroup;
+			children = (
+				83A44BAE57B22584E6AD47A5C7128E4B /* MSDateFormatter.swift */,
+			);
+			name = "date-formatter";
+			path = "Arsenal/Classes/source/date-formatter";
+			sourceTree = "<group>";
+		};
+		AA24F31C654F1472B8A49C3998F7A265 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3F8B57157698B5F8216716937A62816 /* Extension-Collection.swift */,
+				90C068B436DB2E04ACBB43F4B2CBB6FB /* Extension-UIImage.swift */,
+			);
+			name = extensions;
+			path = Arsenal/Classes/source/extensions;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7249EAE709D17A873DE3893844EE93C /* listener */ = {
+			isa = PBXGroup;
+			children = (
+				BA480EDC434D3606C3CA63CC8A348EA7 /* Listener.swift */,
+				2B5D823C1615753D519548CB89EDFFF8 /* ListenerManager.swift */,
+			);
+			name = listener;
+			path = listener;
+			sourceTree = "<group>";
+		};
+		C9675667D4498D6D5817368C2D1C9CC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1E6C82AFD0855115817D75D7060A836 /* Arsenal.modulemap */,
+				03D829F70A242C55D8704F0CD7C61CC3 /* Arsenal-dummy.m */,
+				597F145850EDCFEDED495BAD57C55A4C /* Arsenal-Info.plist */,
+				8EC7891F2DC32AE2A8115B9BEDB0E3A8 /* Arsenal-prefix.pch */,
+				A7F9B28D28E1E337AE92EF6BA93C1011 /* Arsenal-umbrella.h */,
+				94F6660AC445FE085FCB6AD7D5F368E9 /* Arsenal.debug.xcconfig */,
+				020C49CC64CD15395EAC36C9C8208B71 /* Arsenal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Arsenal";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0CDC2D1C24B0BBFE412FFB23E0E44E5A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				321BD127C680780B264B54217623FB9F /* Products */,
+				2FA71F9640B831AE450D51BC0096C80D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5CAE1BE833B2799B40F73A033AF0AD7 /* Pods-Arsenal_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5D6CE477C935BDF1321C3185229ECB4C /* Pods-Arsenal_Example.modulemap */,
+				8FF35974D13E180BF7B59DD56EB785C3 /* Pods-Arsenal_Example-acknowledgements.markdown */,
+				839AE52A48FA0FD5EDD40A95695AF376 /* Pods-Arsenal_Example-acknowledgements.plist */,
+				0EE44AA124943A574C2C220B95E7AAAC /* Pods-Arsenal_Example-dummy.m */,
+				568794007B7A654DEEDBAA2C3AD25D93 /* Pods-Arsenal_Example-frameworks.sh */,
+				CFF5F49E82636FE402D947B211F54F56 /* Pods-Arsenal_Example-Info.plist */,
+				B3444B9466D01B8199914168E475D8CB /* Pods-Arsenal_Example-umbrella.h */,
+				F87C3447B17F1E8E646F1D62E746C568 /* Pods-Arsenal_Example.debug.xcconfig */,
+				50C70FC9C86C7BE6A2C926404A082DD3 /* Pods-Arsenal_Example.release.xcconfig */,
+			);
+			name = "Pods-Arsenal_Example";
+			path = "Target Support Files/Pods-Arsenal_Example";
+			sourceTree = "<group>";
+		};
+		D7C1CE91CA26A461659CE9178FBB2DCC /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				813B7E13B6560B3A350DB5495D76D7C1 /* iPhoneSreen.swift */,
+				5F88B8DC1ED88FC809D6BD9D34B239C3 /* Screen.swift */,
+				B4F90A4BEF19D4D0FF1DC56BF0FAD409 /* ScreenMargin.swift */,
+			);
+			name = screen;
+			path = screen;
+			sourceTree = "<group>";
+		};
+		EF2AF130FEA95F1F8EE130114526BD7B /* nibloadable */ = {
+			isa = PBXGroup;
+			children = (
+				54D4360AD254EFE1F95DFE8147136C19 /* NibLoadable.swift */,
+			);
+			name = nibloadable;
+			path = nibloadable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B12118994730DE4943E259012C56F39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E86671ABABF0C8D336181D2CA4D8430 /* Pods-Arsenal_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7199DC8D1418E04C841A6D251E337BD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E9CFE0C47718A5492DB84129B6B46D /* Arsenal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0049BCD2A4AE3EED80D6C4BFEBA6BDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AC18A9ADA5FE36A34906FBE2B08A11 /* Pods-Arsenal_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A181F2A61017BC1F15696246C99C9942 /* Pods-Arsenal_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 935222D420EF3E341436DE035C958168 /* Build configuration list for PBXNativeTarget "Pods-Arsenal_Tests" */;
+			buildPhases = (
+				F0049BCD2A4AE3EED80D6C4BFEBA6BDD /* Headers */,
+				F537F964A710B51020576B4758BFE989 /* Sources */,
+				227EF2C831295E567F638A201AEF43A3 /* Frameworks */,
+				99E83989887675C36979AF8A73CCA7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73D1C69D7EA16C0BA9FEEFE644C6DE47 /* PBXTargetDependency */,
+			);
+			name = "Pods-Arsenal_Tests";
+			productName = "Pods-Arsenal_Tests";
+			productReference = BD90485004D0DC6B5ECB8C85051C35BF /* Pods_Arsenal_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC3CB8C5760EDDB936ABAF0566AC3799 /* Pods-Arsenal_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A449FF0554B3E8DC100F4EB2711982 /* Build configuration list for PBXNativeTarget "Pods-Arsenal_Example" */;
+			buildPhases = (
+				0B12118994730DE4943E259012C56F39 /* Headers */,
+				DD94182AF3C3BAE89B4CD1D096A938EC /* Sources */,
+				B0F78972843B15867EADADBF62D4686A /* Frameworks */,
+				26E05EDC8D26336B4600F345243D811E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0F8229F8853BDB2C5991366766B28F /* PBXTargetDependency */,
+			);
+			name = "Pods-Arsenal_Example";
+			productName = "Pods-Arsenal_Example";
+			productReference = CFD5C15A6E13337AD19E985A7F3807C5 /* Pods_Arsenal_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE748E0B353BBCCD12F1A8CF5A20B199 /* Arsenal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BA05F8BFFEF30C18A7BCAE79C65D04 /* Build configuration list for PBXNativeTarget "Arsenal" */;
+			buildPhases = (
+				7199DC8D1418E04C841A6D251E337BD4 /* Headers */,
+				9921DE0CAD55E097F5B50EC23827B605 /* Sources */,
+				BA5BBCF0B006FA27856A37FA5B11527B /* Frameworks */,
+				49A9E36F68A0317A742AAEE986FF7865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arsenal;
+			productName = Arsenal;
+			productReference = 3CA8F7BA9B7AFF87721D11A4CA26B18F /* Arsenal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 321BD127C680780B264B54217623FB9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE748E0B353BBCCD12F1A8CF5A20B199 /* Arsenal */,
+				DC3CB8C5760EDDB936ABAF0566AC3799 /* Pods-Arsenal_Example */,
+				A181F2A61017BC1F15696246C99C9942 /* Pods-Arsenal_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26E05EDC8D26336B4600F345243D811E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A9E36F68A0317A742AAEE986FF7865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E83989887675C36979AF8A73CCA7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9921DE0CAD55E097F5B50EC23827B605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2071E58DB82D8ED2C93693BFECF3540 /* AppleTV.swift in Sources */,
+				540A7F9EE43CA986E113D2836008D87F /* Arsenal-dummy.m in Sources */,
+				87DD8D97CEEE96F179F746393D61B82B /* Device.swift in Sources */,
+				6E3DD1429AFC16E99B36F17C06937E4A /* Extension-Collection.swift in Sources */,
+				26C6BDD27FEDAB3D6EA79023B0EF1C0D /* Extension-UIImage.swift in Sources */,
+				8839DCBB2CCD24267246D69905A45648 /* iPad.swift in Sources */,
+				690C754B1CEA3CD87A51DB321E1DFE70 /* iPhone.swift in Sources */,
+				6D3DD531695013FC6B87CBCFFB186D82 /* iPhoneSreen.swift in Sources */,
+				82217E19BE7C763818E0968577A64C46 /* iPod.swift in Sources */,
+				7D7E0F66A9BF4543ED8332CA1E65B7ED /* Listener.swift in Sources */,
+				453AA3745FAF6423D42C7E097C1EA4BF /* ListenerManager.swift in Sources */,
+				F1B356FF8602E0532524848B8E56B3F1 /* MSDateFormatter.swift in Sources */,
+				32919EBC2CA52595A9230CEAAE04F47C /* NibLoadable.swift in Sources */,
+				847B233B9D4C68B5B7A95C69FB197F02 /* Screen.swift in Sources */,
+				023F01144460033BB8B42FE1270E8C1B /* ScreenMargin.swift in Sources */,
+				682145DBD42F4492AC3A65FCAB1F50F5 /* String-Formatter.swift in Sources */,
+				DC1F3835EF6703B33A685CBD6DB13ABE /* String-Inspector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD94182AF3C3BAE89B4CD1D096A938EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53143BDCE66C845CE8C459F336A32EA9 /* Pods-Arsenal_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F537F964A710B51020576B4758BFE989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA473457914C3AF5707659786A6E82F /* Pods-Arsenal_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73D1C69D7EA16C0BA9FEEFE644C6DE47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Arsenal_Example";
+			target = DC3CB8C5760EDDB936ABAF0566AC3799 /* Pods-Arsenal_Example */;
+			targetProxy = 2D9D8980807B7BFCEE9523FC663D264F /* PBXContainerItemProxy */;
+		};
+		9F0F8229F8853BDB2C5991366766B28F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Arsenal;
+			target = DE748E0B353BBCCD12F1A8CF5A20B199 /* Arsenal */;
+			targetProxy = 8F0ECEA30ED6ECE821E74983008793EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43B0912B9EB3AB16BE2A2FF2E49F9A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020C49CC64CD15395EAC36C9C8208B71 /* Arsenal.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Arsenal/Arsenal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Arsenal/Arsenal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Arsenal/Arsenal.modulemap";
+				PRODUCT_MODULE_NAME = Arsenal;
+				PRODUCT_NAME = Arsenal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		53694E46DCDC253817E49B7020A1FA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E686D1CD8DA78659691F4007247311A8 /* Pods-Arsenal_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Arsenal_Tests/Pods-Arsenal_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arsenal_Tests/Pods-Arsenal_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CFB95AB961188A5B75A790C9F928CD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87C3447B17F1E8E646F1D62E746C568 /* Pods-Arsenal_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF08C2A3928DE9F2DA575075204BDB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C70FC9C86C7BE6A2C926404A082DD3 /* Pods-Arsenal_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F046EE5973446C56E48AB03D9A762905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FAB237B929A88E54545758BB6502060 /* Pods-Arsenal_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Arsenal_Tests/Pods-Arsenal_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arsenal_Tests/Pods-Arsenal_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1F2EA0B5FACF0CB9BF3B7CC3FFB9D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F6660AC445FE085FCB6AD7D5F368E9 /* Arsenal.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Arsenal/Arsenal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Arsenal/Arsenal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Arsenal/Arsenal.modulemap";
+				PRODUCT_MODULE_NAME = Arsenal;
+				PRODUCT_NAME = Arsenal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		935222D420EF3E341436DE035C958168 /* Build configuration list for PBXNativeTarget "Pods-Arsenal_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F046EE5973446C56E48AB03D9A762905 /* Debug */,
+				53694E46DCDC253817E49B7020A1FA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BA05F8BFFEF30C18A7BCAE79C65D04 /* Build configuration list for PBXNativeTarget "Arsenal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F2EA0B5FACF0CB9BF3B7CC3FFB9D1A /* Debug */,
+				43B0912B9EB3AB16BE2A2FF2E49F9A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A449FF0554B3E8DC100F4EB2711982 /* Build configuration list for PBXNativeTarget "Pods-Arsenal_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB95AB961188A5B75A790C9F928CD1A /* Debug */,
+				EF08C2A3928DE9F2DA575075204BDB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
