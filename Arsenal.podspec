@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Arsenal'
+  s.name             = 'SwiftArsenal'
   s.version          = '0.1.0'
   s.summary          = 'Small but very common algorithms among any project.'
 
