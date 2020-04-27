@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Arsenal'
   s.version          = '0.1.0'
-  s.summary          = 'Looking forward to gather in a single space all the small but very common algorithms among any project I\'ve been working on, this repo goes beyond that by sharing these tools with any other Swift developer.'
+  s.summary          = 'Small but very common algorithms among any project.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Looking forward to gather in a single space all the small but very common algorithms among any project I've been working on, this repo goes beyond that by sharing these tools with any other Swift developer.
                        DESC
 
-  s.homepage         = 'https://github.com/claudiomadureira/swift-rsenal'
+  s.homepage         = 'https://github.com/claudiomadureira/swift-arsenal'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'claudiomadureira' => 'claudiomsilvaf@gmail.com' }
   s.source           = { :git => 'https://github.com/claudiomadureira/swift-arsenal.git', :tag => s.version.to_s }
