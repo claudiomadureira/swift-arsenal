@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Arsenal'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Arsenal.'
+  s.summary          = 'Looking forward to gather in a single space all the small but very common algorithms among any project I've been working on, this repo goes beyond that by sharing these tools with any other Swift developer.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Looking forward to gather in a single space all the small but very common algorithms among any project I've been working on, this repo goes beyond that by sharing these tools with any other Swift developer.
                        DESC
 
-  s.homepage         = 'https://github.com/claudiomadureira/Arsenal'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/claudiomadureira/swift-rsenal'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'claudiomadureira' => 'claudiomsilvaf@gmail.com' }
-  s.source           = { :git => 'https://github.com/claudiomadureira/Arsenal.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/claudiomadureira/swift-arsenal.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.swift_version
+  s.swift_version = '5.0'
   s.source_files = 'Arsenal/Classes/**/*'
   
   # s.resource_bundles = {
