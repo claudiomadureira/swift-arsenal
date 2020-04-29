@@ -11,6 +11,7 @@
 		052730A75973EFE99C364990206367F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1FA473457914C3AF5707659786A6E82F /* Pods-Arsenal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B9051447D01A704AEE2849E1B46868 /* Pods-Arsenal_Tests-dummy.m */; };
 		2524844B24579D30007B9BFA /* SwiftArsenal.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2524844A24579D30007B9BFA /* SwiftArsenal.podspec */; };
+		258CC401245910A80054EB6C /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258CC400245910A80054EB6C /* Signal.swift */; };
 		26C6BDD27FEDAB3D6EA79023B0EF1C0D /* Extension-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C068B436DB2E04ACBB43F4B2CBB6FB /* Extension-UIImage.swift */; };
 		32919EBC2CA52595A9230CEAAE04F47C /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4360AD254EFE1F95DFE8147136C19 /* NibLoadable.swift */; };
 		3C76B9C0C0E79815B5588EA8EDBC189F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -59,6 +60,7 @@
 		0EE44AA124943A574C2C220B95E7AAAC /* Pods-Arsenal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arsenal_Example-dummy.m"; sourceTree = "<group>"; };
 		1396FD2A6D2CF7F98EABB930D352363D /* iPad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPad.swift; sourceTree = "<group>"; };
 		2524844A24579D30007B9BFA /* SwiftArsenal.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftArsenal.podspec; sourceTree = "<group>"; };
+		258CC400245910A80054EB6C /* Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
 		28BB740A3C59A87C2F1EADBDD2D30C10 /* Pods-Arsenal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arsenal_Tests-umbrella.h"; sourceTree = "<group>"; };
 		28CF9E9351587B1FAF841402D6EF1497 /* Pods-Arsenal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2B5D823C1615753D519548CB89EDFFF8 /* ListenerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListenerManager.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		054A4ED47574C0521106AF4F492B3B79 /* object */ = {
 			isa = PBXGroup;
 			children = (
+				258CC3FF245910950054EB6C /* signal */,
 				18A217E361287A05C14D56C6F23EC150 /* device */,
 				C7249EAE709D17A873DE3893844EE93C /* listener */,
 				EF2AF130FEA95F1F8EE130114526BD7B /* nibloadable */,
@@ -185,6 +188,14 @@
 				AEF1AE467DA02AE34497B7F194C12ABE /* iPod.swift */,
 			);
 			path = device;
+			sourceTree = "<group>";
+		};
+		258CC3FF245910950054EB6C /* signal */ = {
+			isa = PBXGroup;
+			children = (
+				258CC400245910A80054EB6C /* Signal.swift */,
+			);
+			path = signal;
 			sourceTree = "<group>";
 		};
 		2FA71F9640B831AE450D51BC0096C80D /* Targets Support Files */ = {
@@ -495,6 +506,7 @@
 				453AA3745FAF6423D42C7E097C1EA4BF /* ListenerManager.swift in Sources */,
 				F1B356FF8602E0532524848B8E56B3F1 /* MSDateFormatter.swift in Sources */,
 				32919EBC2CA52595A9230CEAAE04F47C /* NibLoadable.swift in Sources */,
+				258CC401245910A80054EB6C /* Signal.swift in Sources */,
 				847B233B9D4C68B5B7A95C69FB197F02 /* Screen.swift in Sources */,
 				023F01144460033BB8B42FE1270E8C1B /* ScreenMargin.swift in Sources */,
 				682145DBD42F4492AC3A65FCAB1F50F5 /* String-Formatter.swift in Sources */,

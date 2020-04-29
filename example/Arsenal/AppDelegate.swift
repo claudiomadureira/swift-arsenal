@@ -1,9 +1,7 @@
 //
 //  AppDelegate.swift
-//  Arsenal
 //
 //  Created by claudiomadureira on 04/27/2020.
-//  Copyright (c) 2020 claudiomadureira. All rights reserved.
 //
 
 import UIKit

@@ -1,9 +1,7 @@
 //
 //  ListenerManagerTests.swift
-//  SwiftArsenalTests
 //
 //  Created by Claudio Madureira Silva Filho on 1/29/20.
-//  Copyright © 2020 Claudio Madureira Silva Filho. All rights reserved.
 //
 
 import XCTest
