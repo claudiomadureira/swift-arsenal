@@ -28,13 +28,7 @@ Looking forward to gather in a single space all the small but very common algori
 
   s.ios.deployment_target = '8.0'
   s.swift_version = '5.0'
-  s.source_files = 'Arsenal/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Arsenal' => ['Arsenal/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'Arsenal/Classes/**/*'
+
 end
