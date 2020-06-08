@@ -7,33 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		023F01144460033BB8B42FE1270E8C1B /* ScreenMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F90A4BEF19D4D0FF1DC56BF0FAD409 /* ScreenMargin.swift */; };
-		052730A75973EFE99C364990206367F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		02E1679721410CFB09A15D98EE85E456 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1BF1AF40D095F566B1FB7B8E8C10A /* Device.swift */; };
+		07F37F3BF3C037FECC54BE39AD302001 /* String-Inspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226BFC65082FEF045D7F678D8EF1F3EB /* String-Inspector.swift */; };
 		1FA473457914C3AF5707659786A6E82F /* Pods-Arsenal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B9051447D01A704AEE2849E1B46868 /* Pods-Arsenal_Tests-dummy.m */; };
-		2524844B24579D30007B9BFA /* SwiftArsenal.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2524844A24579D30007B9BFA /* SwiftArsenal.podspec */; };
-		258CC401245910A80054EB6C /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258CC400245910A80054EB6C /* Signal.swift */; };
-		26C6BDD27FEDAB3D6EA79023B0EF1C0D /* Extension-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C068B436DB2E04ACBB43F4B2CBB6FB /* Extension-UIImage.swift */; };
-		32919EBC2CA52595A9230CEAAE04F47C /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4360AD254EFE1F95DFE8147136C19 /* NibLoadable.swift */; };
-		3C76B9C0C0E79815B5588EA8EDBC189F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		453AA3745FAF6423D42C7E097C1EA4BF /* ListenerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D823C1615753D519548CB89EDFFF8 /* ListenerManager.swift */; };
-		53143BDCE66C845CE8C459F336A32EA9 /* Pods-Arsenal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE44AA124943A574C2C220B95E7AAAC /* Pods-Arsenal_Example-dummy.m */; };
-		540A7F9EE43CA986E113D2836008D87F /* Arsenal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D829F70A242C55D8704F0CD7C61CC3 /* Arsenal-dummy.m */; };
-		5E86671ABABF0C8D336181D2CA4D8430 /* Pods-Arsenal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3444B9466D01B8199914168E475D8CB /* Pods-Arsenal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		682145DBD42F4492AC3A65FCAB1F50F5 /* String-Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080114E5BA2BE1E3B3AC1DA69C4552FC /* String-Formatter.swift */; };
-		690C754B1CEA3CD87A51DB321E1DFE70 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E633DEE5F23F249D31E030D98749D3A /* iPhone.swift */; };
-		6D3DD531695013FC6B87CBCFFB186D82 /* iPhoneSreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B7E13B6560B3A350DB5495D76D7C1 /* iPhoneSreen.swift */; };
-		6E3DD1429AFC16E99B36F17C06937E4A /* Extension-Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8B57157698B5F8216716937A62816 /* Extension-Collection.swift */; };
+		26C529D6195B49446668E7F2B38A5865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		299A9D4EEB9B7D50592BD8D0001CF7B5 /* Pods-Arsenal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE44AA124943A574C2C220B95E7AAAC /* Pods-Arsenal_Example-dummy.m */; };
+		2AD43DD21A2511F2DD5C5510186E7549 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B697D07D3F7F391DE55E7DD8C30864 /* NibLoadable.swift */; };
+		2CEA5D85A92CD3C75326E17E6246F1AA /* Extension-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9144DE5360DAC87670B83578F74141F4 /* Extension-UIImage.swift */; };
+		39D1C8B5477FEFED6D780F4709F13094 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504A10B3656BEAB4FC271DB7075376E /* Signal.swift */; };
+		56D92201D7FDE9E3401B56A77B0E4CEC /* AppleTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10534FA6DAC97949C3BD7D523295BE91 /* AppleTV.swift */; };
+		5C3FDE4173A84C3684CDDE7A1F531447 /* MSDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57929599C77E0D21D3D310A9A73738C0 /* MSDateFormatter.swift */; };
+		60144C60C14C2F4950E56B65A421D71A /* iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613831235CBE107073669363870F8705 /* iPad.swift */; };
+		68B3AEE13D08EBC9412D3A8AE0F32234 /* Extension-Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583B5C6C75765A7D46EF1E3B997CB92D /* Extension-Collection.swift */; };
+		6AEB84ADDE0CAC4567FBC5E36D4CAFBD /* Pods-Arsenal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3444B9466D01B8199914168E475D8CB /* Pods-Arsenal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BEF4F0317DC3F56207E3DBE7BA49ECA /* SwiftArsenal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F833288BBE30EABC31400C5DA4E6D8 /* SwiftArsenal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CC388B2806B15F761D51875153B8B5 /* String-Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C299C002B3108DB4F4DE902BCBFE77CA /* String-Formatter.swift */; };
 		72AC18A9ADA5FE36A34906FBE2B08A11 /* Pods-Arsenal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BB740A3C59A87C2F1EADBDD2D30C10 /* Pods-Arsenal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D7E0F66A9BF4543ED8332CA1E65B7ED /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA480EDC434D3606C3CA63CC8A348EA7 /* Listener.swift */; };
-		82217E19BE7C763818E0968577A64C46 /* iPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1AE467DA02AE34497B7F194C12ABE /* iPod.swift */; };
-		847B233B9D4C68B5B7A95C69FB197F02 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88B8DC1ED88FC809D6BD9D34B239C3 /* Screen.swift */; };
-		87DD8D97CEEE96F179F746393D61B82B /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9807D4A8A7A70C2CD9938D4ABF974425 /* Device.swift */; };
-		8839DCBB2CCD24267246D69905A45648 /* iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1396FD2A6D2CF7F98EABB930D352363D /* iPad.swift */; };
+		78BD07E912DA5D54331A39EF52CD16C1 /* iPhoneSreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004F2AB13040CB0373094B3D2F0AF40 /* iPhoneSreen.swift */; };
+		8129FDC3C35A14D17A0A99324C64A49C /* SwiftArsenal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CAF61C0785415810AD220D3E51D8C7 /* SwiftArsenal-dummy.m */; };
+		82A7C92B0447EA7E979D0CA509A21CF8 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45097B1689E9B986729BA4DC6BAC626B /* Screen.swift */; };
 		8D023F462DC7F9406673D3B34894B16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DC1F3835EF6703B33A685CBD6DB13ABE /* String-Inspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68B4C0A7DEDE02808B5F40036EC204 /* String-Inspector.swift */; };
-		E3E9CFE0C47718A5492DB84129B6B46D /* Arsenal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F9B28D28E1E337AE92EF6BA93C1011 /* Arsenal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1B356FF8602E0532524848B8E56B3F1 /* MSDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A44BAE57B22584E6AD47A5C7128E4B /* MSDateFormatter.swift */; };
-		F2071E58DB82D8ED2C93693BFECF3540 /* AppleTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA063C664F6149263DDB556E0928CE20 /* AppleTV.swift */; };
+		967CF67EC1422AC9EB2E375F492515E5 /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DD1FFA5634CC5CBC7BD2E61A011EC /* Listener.swift */; };
+		A3A12C618B2E70BCAB76B241A3E9FF70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ADAA7D483421C68E8EB77E2867636EAF /* iPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE48501E146204925FAA9F86A8CBEAA /* iPod.swift */; };
+		B01B6CAAE7A772EA94047CB1D51BC547 /* iPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5370A616CE5B1B61629B6C3B760098C3 /* iPhone.swift */; };
+		CA046ABA135AEA0871D299B3BB95792F /* ScreenMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188FFFAEB069F6E77F1C0C11E18872D /* ScreenMargin.swift */; };
+		E06F164B5571434A84C15C1B25465364 /* ListenerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A025C4A6DCFACAFA2085E4401112C7FC /* ListenerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,64 +43,64 @@
 			remoteGlobalIDString = DC3CB8C5760EDDB936ABAF0566AC3799;
 			remoteInfo = "Pods-Arsenal_Example";
 		};
-		8F0ECEA30ED6ECE821E74983008793EA /* PBXContainerItemProxy */ = {
+		FED6CB17DECB10FCF52775390299B0DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE748E0B353BBCCD12F1A8CF5A20B199;
-			remoteInfo = Arsenal;
+			remoteGlobalIDString = 086996CA89D328EE7350056353A4A8B2;
+			remoteInfo = SwiftArsenal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020C49CC64CD15395EAC36C9C8208B71 /* Arsenal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arsenal.release.xcconfig; sourceTree = "<group>"; };
-		03D829F70A242C55D8704F0CD7C61CC3 /* Arsenal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Arsenal-dummy.m"; sourceTree = "<group>"; };
-		080114E5BA2BE1E3B3AC1DA69C4552FC /* String-Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String-Formatter.swift"; sourceTree = "<group>"; };
+		0004F2AB13040CB0373094B3D2F0AF40 /* iPhoneSreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPhoneSreen.swift; sourceTree = "<group>"; };
+		02CAF61C0785415810AD220D3E51D8C7 /* SwiftArsenal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftArsenal-dummy.m"; sourceTree = "<group>"; };
+		0504A10B3656BEAB4FC271DB7075376E /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
 		0EE44AA124943A574C2C220B95E7AAAC /* Pods-Arsenal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arsenal_Example-dummy.m"; sourceTree = "<group>"; };
-		1396FD2A6D2CF7F98EABB930D352363D /* iPad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPad.swift; sourceTree = "<group>"; };
-		2524844A24579D30007B9BFA /* SwiftArsenal.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftArsenal.podspec; sourceTree = "<group>"; };
-		258CC400245910A80054EB6C /* Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
+		0FFD4D7D2641BCEF1D8E691C328AC228 /* SwiftArsenal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftArsenal.release.xcconfig; sourceTree = "<group>"; };
+		10534FA6DAC97949C3BD7D523295BE91 /* AppleTV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppleTV.swift; sourceTree = "<group>"; };
+		1188FFFAEB069F6E77F1C0C11E18872D /* ScreenMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenMargin.swift; sourceTree = "<group>"; };
+		1745471AE25B63395DDD1AB3CEB9E32B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		21D1BF1AF40D095F566B1FB7B8E8C10A /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		226BFC65082FEF045D7F678D8EF1F3EB /* String-Inspector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String-Inspector.swift"; sourceTree = "<group>"; };
+		23B697D07D3F7F391DE55E7DD8C30864 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		28BB740A3C59A87C2F1EADBDD2D30C10 /* Pods-Arsenal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arsenal_Tests-umbrella.h"; sourceTree = "<group>"; };
 		28CF9E9351587B1FAF841402D6EF1497 /* Pods-Arsenal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2B5D823C1615753D519548CB89EDFFF8 /* ListenerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListenerManager.swift; sourceTree = "<group>"; };
+		2AF0326A6DA8C875F392001AFC93D882 /* SwiftArsenal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftArsenal.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3CA8F7BA9B7AFF87721D11A4CA26B18F /* Arsenal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arsenal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E633DEE5F23F249D31E030D98749D3A /* iPhone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		3C52ABEB69067461E927BB5FFF138561 /* SwiftArsenal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftArsenal-Info.plist"; sourceTree = "<group>"; };
+		45097B1689E9B986729BA4DC6BAC626B /* Screen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		469DD1FFA5634CC5CBC7BD2E61A011EC /* Listener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
 		50C70FC9C86C7BE6A2C926404A082DD3 /* Pods-Arsenal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arsenal_Example.release.xcconfig"; sourceTree = "<group>"; };
-		54D4360AD254EFE1F95DFE8147136C19 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		5370A616CE5B1B61629B6C3B760098C3 /* iPhone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPhone.swift; sourceTree = "<group>"; };
+		55A1855B09563015599D362099A959C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		568794007B7A654DEEDBAA2C3AD25D93 /* Pods-Arsenal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arsenal_Example-frameworks.sh"; sourceTree = "<group>"; };
-		597F145850EDCFEDED495BAD57C55A4C /* Arsenal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Arsenal-Info.plist"; sourceTree = "<group>"; };
+		57929599C77E0D21D3D310A9A73738C0 /* MSDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSDateFormatter.swift; sourceTree = "<group>"; };
+		583B5C6C75765A7D46EF1E3B997CB92D /* Extension-Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension-Collection.swift"; sourceTree = "<group>"; };
+		592636F5BEE7A8F983D26DA073662FA1 /* SwiftArsenal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftArsenal.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5D6CE477C935BDF1321C3185229ECB4C /* Pods-Arsenal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Arsenal_Example.modulemap"; sourceTree = "<group>"; };
-		5F88B8DC1ED88FC809D6BD9D34B239C3 /* Screen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		5DE5D67E4B45C4D2C9AE1976823298AF /* SwiftArsenal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftArsenal.modulemap; sourceTree = "<group>"; };
 		5FAB237B929A88E54545758BB6502060 /* Pods-Arsenal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arsenal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		813B7E13B6560B3A350DB5495D76D7C1 /* iPhoneSreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPhoneSreen.swift; sourceTree = "<group>"; };
+		613831235CBE107073669363870F8705 /* iPad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPad.swift; sourceTree = "<group>"; };
+		6EE48501E146204925FAA9F86A8CBEAA /* iPod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPod.swift; sourceTree = "<group>"; };
 		837AA146898EEDD832A0F22013467A4B /* Pods-Arsenal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Arsenal_Tests.modulemap"; sourceTree = "<group>"; };
 		839AE52A48FA0FD5EDD40A95695AF376 /* Pods-Arsenal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		83A44BAE57B22584E6AD47A5C7128E4B /* MSDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MSDateFormatter.swift; sourceTree = "<group>"; };
 		890F4522F38D1C7B3FED2EAAC89D6384 /* Pods-Arsenal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arsenal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8EC7891F2DC32AE2A8115B9BEDB0E3A8 /* Arsenal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arsenal-prefix.pch"; sourceTree = "<group>"; };
+		8E6DE09749C181D736E3207FA6C30EFA /* SwiftArsenal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftArsenal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF35974D13E180BF7B59DD56EB785C3 /* Pods-Arsenal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arsenal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		90C068B436DB2E04ACBB43F4B2CBB6FB /* Extension-UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension-UIImage.swift"; sourceTree = "<group>"; };
-		94F6660AC445FE085FCB6AD7D5F368E9 /* Arsenal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arsenal.debug.xcconfig; sourceTree = "<group>"; };
-		9807D4A8A7A70C2CD9938D4ABF974425 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		9144DE5360DAC87670B83578F74141F4 /* Extension-UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension-UIImage.swift"; sourceTree = "<group>"; };
 		98CC23B3286EDDCF58821EA95FE0CDD6 /* Pods-Arsenal_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7F9B28D28E1E337AE92EF6BA93C1011 /* Arsenal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arsenal-umbrella.h"; sourceTree = "<group>"; };
-		AEF1AE467DA02AE34497B7F194C12ABE /* iPod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iPod.swift; sourceTree = "<group>"; };
+		A025C4A6DCFACAFA2085E4401112C7FC /* ListenerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListenerManager.swift; sourceTree = "<group>"; };
 		B3444B9466D01B8199914168E475D8CB /* Pods-Arsenal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arsenal_Example-umbrella.h"; sourceTree = "<group>"; };
-		B4F90A4BEF19D4D0FF1DC56BF0FAD409 /* ScreenMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenMargin.swift; sourceTree = "<group>"; };
-		B93056C8C9ADE5711A0DC105EE4F429F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B9AA5813C772343E7375F71C2FD9C447 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BA063C664F6149263DDB556E0928CE20 /* AppleTV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppleTV.swift; sourceTree = "<group>"; };
-		BA480EDC434D3606C3CA63CC8A348EA7 /* Listener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
-		BB68B4C0A7DEDE02808B5F40036EC204 /* String-Inspector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String-Inspector.swift"; sourceTree = "<group>"; };
+		B7859D8F5488122067304C25590E1F9E /* SwiftArsenal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftArsenal-prefix.pch"; sourceTree = "<group>"; };
 		BD90485004D0DC6B5ECB8C85051C35BF /* Pods_Arsenal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arsenal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C299C002B3108DB4F4DE902BCBFE77CA /* String-Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String-Formatter.swift"; sourceTree = "<group>"; };
 		CFD5C15A6E13337AD19E985A7F3807C5 /* Pods_Arsenal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arsenal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF5F49E82636FE402D947B211F54F56 /* Pods-Arsenal_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arsenal_Example-Info.plist"; sourceTree = "<group>"; };
-		D3F8B57157698B5F8216716937A62816 /* Extension-Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Extension-Collection.swift"; sourceTree = "<group>"; };
-		E1E6C82AFD0855115817D75D7060A836 /* Arsenal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Arsenal.modulemap; sourceTree = "<group>"; };
 		E686D1CD8DA78659691F4007247311A8 /* Pods-Arsenal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arsenal_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0B9051447D01A704AEE2849E1B46868 /* Pods-Arsenal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arsenal_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3F833288BBE30EABC31400C5DA4E6D8 /* SwiftArsenal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftArsenal-umbrella.h"; sourceTree = "<group>"; };
 		F87C3447B17F1E8E646F1D62E746C568 /* Pods-Arsenal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arsenal_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,90 +113,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0F78972843B15867EADADBF62D4686A /* Frameworks */ = {
+		315F56B1D658DC0F4612C88F5069F7F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C76B9C0C0E79815B5588EA8EDBC189F /* Foundation.framework in Frameworks */,
+				A3A12C618B2E70BCAB76B241A3E9FF70 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA5BBCF0B006FA27856A37FA5B11527B /* Frameworks */ = {
+		9E4ACB4D6F456A927D2662D80C80A9F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052730A75973EFE99C364990206367F9 /* Foundation.framework in Frameworks */,
+				26C529D6195B49446668E7F2B38A5865 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		054A4ED47574C0521106AF4F492B3B79 /* object */ = {
-			isa = PBXGroup;
-			children = (
-				258CC3FF245910950054EB6C /* signal */,
-				18A217E361287A05C14D56C6F23EC150 /* device */,
-				C7249EAE709D17A873DE3893844EE93C /* listener */,
-				EF2AF130FEA95F1F8EE130114526BD7B /* nibloadable */,
-				D7C1CE91CA26A461659CE9178FBB2DCC /* screen */,
-			);
-			name = object;
-			path = Arsenal/Classes/source/object;
-			sourceTree = "<group>";
-		};
-		0CDC2D1C24B0BBFE412FFB23E0E44E5A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1632A1C06F8EBDA08B82F19B8961321F /* Arsenal */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0ECDAF59AAD799EE997107885C608172 /* string */ = {
-			isa = PBXGroup;
-			children = (
-				080114E5BA2BE1E3B3AC1DA69C4552FC /* String-Formatter.swift */,
-				BB68B4C0A7DEDE02808B5F40036EC204 /* String-Inspector.swift */,
-			);
-			name = string;
-			path = Arsenal/Classes/source/string;
-			sourceTree = "<group>";
-		};
-		1632A1C06F8EBDA08B82F19B8961321F /* Arsenal */ = {
-			isa = PBXGroup;
-			children = (
-				9A41E780D4E2609D09C7C92A9734401F /* date-formatter */,
-				AA24F31C654F1472B8A49C3998F7A265 /* extensions */,
-				054A4ED47574C0521106AF4F492B3B79 /* object */,
-				904F052D899452828594B15E3B0B4C81 /* Pod */,
-				0ECDAF59AAD799EE997107885C608172 /* string */,
-				C9675667D4498D6D5817368C2D1C9CC3 /* Support Files */,
-			);
-			name = Arsenal;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		18A217E361287A05C14D56C6F23EC150 /* device */ = {
-			isa = PBXGroup;
-			children = (
-				BA063C664F6149263DDB556E0928CE20 /* AppleTV.swift */,
-				9807D4A8A7A70C2CD9938D4ABF974425 /* Device.swift */,
-				1396FD2A6D2CF7F98EABB930D352363D /* iPad.swift */,
-				4E633DEE5F23F249D31E030D98749D3A /* iPhone.swift */,
-				AEF1AE467DA02AE34497B7F194C12ABE /* iPod.swift */,
-			);
-			path = device;
-			sourceTree = "<group>";
-		};
-		258CC3FF245910950054EB6C /* signal */ = {
-			isa = PBXGroup;
-			children = (
-				258CC400245910A80054EB6C /* Signal.swift */,
-			);
-			path = signal;
-			sourceTree = "<group>";
-		};
 		2FA71F9640B831AE450D51BC0096C80D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,14 +141,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		321BD127C680780B264B54217623FB9F /* Products */ = {
+		410D1B35BC858B0AC7B2E612B2A54400 /* signal */ = {
 			isa = PBXGroup;
 			children = (
-				3CA8F7BA9B7AFF87721D11A4CA26B18F /* Arsenal.framework */,
-				CFD5C15A6E13337AD19E985A7F3807C5 /* Pods_Arsenal_Example.framework */,
-				BD90485004D0DC6B5ECB8C85051C35BF /* Pods_Arsenal_Tests.framework */,
+				0504A10B3656BEAB4FC271DB7075376E /* Signal.swift */,
 			);
-			name = Products;
+			path = signal;
 			sourceTree = "<group>";
 		};
 		5B109A10AE3F157D06C5B42BD084B596 /* Pods-Arsenal_Tests */ = {
@@ -233,30 +165,71 @@
 			path = "Target Support Files/Pods-Arsenal_Tests";
 			sourceTree = "<group>";
 		};
-		904F052D899452828594B15E3B0B4C81 /* Pod */ = {
+		66A15B681E2A056615396856DBD1FAFB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2524844A24579D30007B9BFA /* SwiftArsenal.podspec */,
-				B93056C8C9ADE5711A0DC105EE4F429F /* LICENSE */,
-				B9AA5813C772343E7375F71C2FD9C447 /* README.md */,
+				5DE5D67E4B45C4D2C9AE1976823298AF /* SwiftArsenal.modulemap */,
+				02CAF61C0785415810AD220D3E51D8C7 /* SwiftArsenal-dummy.m */,
+				3C52ABEB69067461E927BB5FFF138561 /* SwiftArsenal-Info.plist */,
+				B7859D8F5488122067304C25590E1F9E /* SwiftArsenal-prefix.pch */,
+				F3F833288BBE30EABC31400C5DA4E6D8 /* SwiftArsenal-umbrella.h */,
+				2AF0326A6DA8C875F392001AFC93D882 /* SwiftArsenal.debug.xcconfig */,
+				0FFD4D7D2641BCEF1D8E691C328AC228 /* SwiftArsenal.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftArsenal";
 			sourceTree = "<group>";
 		};
-		9A41E780D4E2609D09C7C92A9734401F /* date-formatter */ = {
+		79E3B7F7288A5E75F6A182DE1AB2A5FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83A44BAE57B22584E6AD47A5C7128E4B /* MSDateFormatter.swift */,
+				CFD5C15A6E13337AD19E985A7F3807C5 /* Pods_Arsenal_Example.framework */,
+				BD90485004D0DC6B5ECB8C85051C35BF /* Pods_Arsenal_Tests.framework */,
+				8E6DE09749C181D736E3207FA6C30EFA /* SwiftArsenal.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90DD29C7865BB47CDB07FD8EBB645BD4 /* date-formatter */ = {
+			isa = PBXGroup;
+			children = (
+				57929599C77E0D21D3D310A9A73738C0 /* MSDateFormatter.swift */,
 			);
 			name = "date-formatter";
 			path = "Arsenal/Classes/source/date-formatter";
 			sourceTree = "<group>";
 		};
-		AA24F31C654F1472B8A49C3998F7A265 /* extensions */ = {
+		9956701940BF1A66407745A129366665 /* nibloadable */ = {
 			isa = PBXGroup;
 			children = (
-				D3F8B57157698B5F8216716937A62816 /* Extension-Collection.swift */,
-				90C068B436DB2E04ACBB43F4B2CBB6FB /* Extension-UIImage.swift */,
+				23B697D07D3F7F391DE55E7DD8C30864 /* NibLoadable.swift */,
+			);
+			path = nibloadable;
+			sourceTree = "<group>";
+		};
+		ACDED561D28BADC080039C2F6DFA4886 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEC81F293A25D3FBE9284BA07D3272A4 /* SwiftArsenal */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AEB5F6063B59486A57923B22F5F2C43D /* string */ = {
+			isa = PBXGroup;
+			children = (
+				C299C002B3108DB4F4DE902BCBFE77CA /* String-Formatter.swift */,
+				226BFC65082FEF045D7F678D8EF1F3EB /* String-Inspector.swift */,
+			);
+			name = string;
+			path = Arsenal/Classes/source/string;
+			sourceTree = "<group>";
+		};
+		B18A239EC7AC6A3CF3A3F5B80B5FACC8 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				583B5C6C75765A7D46EF1E3B997CB92D /* Extension-Collection.swift */,
+				9144DE5360DAC87670B83578F74141F4 /* Extension-UIImage.swift */,
 			);
 			name = extensions;
 			path = Arsenal/Classes/source/extensions;
@@ -270,37 +243,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C7249EAE709D17A873DE3893844EE93C /* listener */ = {
+		C14ED4175D51FFA65B7413219CEA8EEF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BA480EDC434D3606C3CA63CC8A348EA7 /* Listener.swift */,
-				2B5D823C1615753D519548CB89EDFFF8 /* ListenerManager.swift */,
+				55A1855B09563015599D362099A959C6 /* LICENSE */,
+				1745471AE25B63395DDD1AB3CEB9E32B /* README.md */,
+				592636F5BEE7A8F983D26DA073662FA1 /* SwiftArsenal.podspec */,
 			);
-			path = listener;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		C9675667D4498D6D5817368C2D1C9CC3 /* Support Files */ = {
+		CA4D0B891EEA0BDD235B900E7AE56D77 /* screen */ = {
 			isa = PBXGroup;
 			children = (
-				E1E6C82AFD0855115817D75D7060A836 /* Arsenal.modulemap */,
-				03D829F70A242C55D8704F0CD7C61CC3 /* Arsenal-dummy.m */,
-				597F145850EDCFEDED495BAD57C55A4C /* Arsenal-Info.plist */,
-				8EC7891F2DC32AE2A8115B9BEDB0E3A8 /* Arsenal-prefix.pch */,
-				A7F9B28D28E1E337AE92EF6BA93C1011 /* Arsenal-umbrella.h */,
-				94F6660AC445FE085FCB6AD7D5F368E9 /* Arsenal.debug.xcconfig */,
-				020C49CC64CD15395EAC36C9C8208B71 /* Arsenal.release.xcconfig */,
+				0004F2AB13040CB0373094B3D2F0AF40 /* iPhoneSreen.swift */,
+				45097B1689E9B986729BA4DC6BAC626B /* Screen.swift */,
+				1188FFFAEB069F6E77F1C0C11E18872D /* ScreenMargin.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Arsenal";
+			path = screen;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0CDC2D1C24B0BBFE412FFB23E0E44E5A /* Development Pods */,
+				ACDED561D28BADC080039C2F6DFA4886 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				321BD127C680780B264B54217623FB9F /* Products */,
+				79E3B7F7288A5E75F6A182DE1AB2A5FA /* Products */,
 				2FA71F9640B831AE450D51BC0096C80D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -330,40 +299,70 @@
 			path = "Target Support Files/Pods-Arsenal_Example";
 			sourceTree = "<group>";
 		};
-		D7C1CE91CA26A461659CE9178FBB2DCC /* screen */ = {
+		D6283D850BCEDAA7A503008FEB583471 /* object */ = {
 			isa = PBXGroup;
 			children = (
-				813B7E13B6560B3A350DB5495D76D7C1 /* iPhoneSreen.swift */,
-				5F88B8DC1ED88FC809D6BD9D34B239C3 /* Screen.swift */,
-				B4F90A4BEF19D4D0FF1DC56BF0FAD409 /* ScreenMargin.swift */,
+				F251F5774C2FDDE245D6CFDF926EF970 /* device */,
+				DC7204ACEC2CA608EC2057A21EC17A61 /* listener */,
+				9956701940BF1A66407745A129366665 /* nibloadable */,
+				CA4D0B891EEA0BDD235B900E7AE56D77 /* screen */,
+				410D1B35BC858B0AC7B2E612B2A54400 /* signal */,
 			);
-			path = screen;
+			name = object;
+			path = Arsenal/Classes/source/object;
 			sourceTree = "<group>";
 		};
-		EF2AF130FEA95F1F8EE130114526BD7B /* nibloadable */ = {
+		DC7204ACEC2CA608EC2057A21EC17A61 /* listener */ = {
 			isa = PBXGroup;
 			children = (
-				54D4360AD254EFE1F95DFE8147136C19 /* NibLoadable.swift */,
+				469DD1FFA5634CC5CBC7BD2E61A011EC /* Listener.swift */,
+				A025C4A6DCFACAFA2085E4401112C7FC /* ListenerManager.swift */,
 			);
-			path = nibloadable;
+			path = listener;
+			sourceTree = "<group>";
+		};
+		EEC81F293A25D3FBE9284BA07D3272A4 /* SwiftArsenal */ = {
+			isa = PBXGroup;
+			children = (
+				90DD29C7865BB47CDB07FD8EBB645BD4 /* date-formatter */,
+				B18A239EC7AC6A3CF3A3F5B80B5FACC8 /* extensions */,
+				D6283D850BCEDAA7A503008FEB583471 /* object */,
+				C14ED4175D51FFA65B7413219CEA8EEF /* Pod */,
+				AEB5F6063B59486A57923B22F5F2C43D /* string */,
+				66A15B681E2A056615396856DBD1FAFB /* Support Files */,
+			);
+			name = SwiftArsenal;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F251F5774C2FDDE245D6CFDF926EF970 /* device */ = {
+			isa = PBXGroup;
+			children = (
+				10534FA6DAC97949C3BD7D523295BE91 /* AppleTV.swift */,
+				21D1BF1AF40D095F566B1FB7B8E8C10A /* Device.swift */,
+				613831235CBE107073669363870F8705 /* iPad.swift */,
+				5370A616CE5B1B61629B6C3B760098C3 /* iPhone.swift */,
+				6EE48501E146204925FAA9F86A8CBEAA /* iPod.swift */,
+			);
+			path = device;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B12118994730DE4943E259012C56F39 /* Headers */ = {
+		0D3B6065A7981DE702625E4C1428256D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E86671ABABF0C8D336181D2CA4D8430 /* Pods-Arsenal_Example-umbrella.h in Headers */,
+				6AEB84ADDE0CAC4567FBC5E36D4CAFBD /* Pods-Arsenal_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7199DC8D1418E04C841A6D251E337BD4 /* Headers */ = {
+		28C2ADF2F23B823F645F283BD190F4A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3E9CFE0C47718A5492DB84129B6B46D /* Arsenal-umbrella.h in Headers */,
+				6BEF4F0317DC3F56207E3DBE7BA49ECA /* SwiftArsenal-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +377,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		086996CA89D328EE7350056353A4A8B2 /* SwiftArsenal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1E2EAF2C7D7D07D2F2A0554CE385BB /* Build configuration list for PBXNativeTarget "SwiftArsenal" */;
+			buildPhases = (
+				28C2ADF2F23B823F645F283BD190F4A4 /* Headers */,
+				9D52EB6DC396DB736093DC649A8E5030 /* Sources */,
+				315F56B1D658DC0F4612C88F5069F7F4 /* Frameworks */,
+				20CE3E5EE2E2D731A008C9DECB674603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftArsenal;
+			productName = SwiftArsenal;
+			productReference = 8E6DE09749C181D736E3207FA6C30EFA /* SwiftArsenal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A181F2A61017BC1F15696246C99C9942 /* Pods-Arsenal_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 935222D420EF3E341436DE035C958168 /* Build configuration list for PBXNativeTarget "Pods-Arsenal_Tests" */;
@@ -399,39 +416,21 @@
 		};
 		DC3CB8C5760EDDB936ABAF0566AC3799 /* Pods-Arsenal_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8A449FF0554B3E8DC100F4EB2711982 /* Build configuration list for PBXNativeTarget "Pods-Arsenal_Example" */;
+			buildConfigurationList = 2D0859632BD0DCAFDA7A20AFE7555C75 /* Build configuration list for PBXNativeTarget "Pods-Arsenal_Example" */;
 			buildPhases = (
-				0B12118994730DE4943E259012C56F39 /* Headers */,
-				DD94182AF3C3BAE89B4CD1D096A938EC /* Sources */,
-				B0F78972843B15867EADADBF62D4686A /* Frameworks */,
-				26E05EDC8D26336B4600F345243D811E /* Resources */,
+				0D3B6065A7981DE702625E4C1428256D /* Headers */,
+				844B2ABA81B04319BC3265F3DB777CB6 /* Sources */,
+				9E4ACB4D6F456A927D2662D80C80A9F6 /* Frameworks */,
+				67206FE8172AE04011244AE14A3047E3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9F0F8229F8853BDB2C5991366766B28F /* PBXTargetDependency */,
+				DA6775E726651AEA737DA20B447E7921 /* PBXTargetDependency */,
 			);
 			name = "Pods-Arsenal_Example";
 			productName = "Pods-Arsenal_Example";
 			productReference = CFD5C15A6E13337AD19E985A7F3807C5 /* Pods_Arsenal_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DE748E0B353BBCCD12F1A8CF5A20B199 /* Arsenal */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5BA05F8BFFEF30C18A7BCAE79C65D04 /* Build configuration list for PBXNativeTarget "Arsenal" */;
-			buildPhases = (
-				7199DC8D1418E04C841A6D251E337BD4 /* Headers */,
-				9921DE0CAD55E097F5B50EC23827B605 /* Sources */,
-				BA5BBCF0B006FA27856A37FA5B11527B /* Frameworks */,
-				49A9E36F68A0317A742AAEE986FF7865 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Arsenal;
-			productName = Arsenal;
-			productReference = 3CA8F7BA9B7AFF87721D11A4CA26B18F /* Arsenal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -452,30 +451,29 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 321BD127C680780B264B54217623FB9F /* Products */;
+			productRefGroup = 79E3B7F7288A5E75F6A182DE1AB2A5FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE748E0B353BBCCD12F1A8CF5A20B199 /* Arsenal */,
 				DC3CB8C5760EDDB936ABAF0566AC3799 /* Pods-Arsenal_Example */,
 				A181F2A61017BC1F15696246C99C9942 /* Pods-Arsenal_Tests */,
+				086996CA89D328EE7350056353A4A8B2 /* SwiftArsenal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26E05EDC8D26336B4600F345243D811E /* Resources */ = {
+		20CE3E5EE2E2D731A008C9DECB674603 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49A9E36F68A0317A742AAEE986FF7865 /* Resources */ = {
+		67206FE8172AE04011244AE14A3047E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2524844B24579D30007B9BFA /* SwiftArsenal.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,36 +487,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9921DE0CAD55E097F5B50EC23827B605 /* Sources */ = {
+		844B2ABA81B04319BC3265F3DB777CB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2071E58DB82D8ED2C93693BFECF3540 /* AppleTV.swift in Sources */,
-				540A7F9EE43CA986E113D2836008D87F /* Arsenal-dummy.m in Sources */,
-				87DD8D97CEEE96F179F746393D61B82B /* Device.swift in Sources */,
-				6E3DD1429AFC16E99B36F17C06937E4A /* Extension-Collection.swift in Sources */,
-				26C6BDD27FEDAB3D6EA79023B0EF1C0D /* Extension-UIImage.swift in Sources */,
-				8839DCBB2CCD24267246D69905A45648 /* iPad.swift in Sources */,
-				690C754B1CEA3CD87A51DB321E1DFE70 /* iPhone.swift in Sources */,
-				6D3DD531695013FC6B87CBCFFB186D82 /* iPhoneSreen.swift in Sources */,
-				82217E19BE7C763818E0968577A64C46 /* iPod.swift in Sources */,
-				7D7E0F66A9BF4543ED8332CA1E65B7ED /* Listener.swift in Sources */,
-				453AA3745FAF6423D42C7E097C1EA4BF /* ListenerManager.swift in Sources */,
-				F1B356FF8602E0532524848B8E56B3F1 /* MSDateFormatter.swift in Sources */,
-				32919EBC2CA52595A9230CEAAE04F47C /* NibLoadable.swift in Sources */,
-				258CC401245910A80054EB6C /* Signal.swift in Sources */,
-				847B233B9D4C68B5B7A95C69FB197F02 /* Screen.swift in Sources */,
-				023F01144460033BB8B42FE1270E8C1B /* ScreenMargin.swift in Sources */,
-				682145DBD42F4492AC3A65FCAB1F50F5 /* String-Formatter.swift in Sources */,
-				DC1F3835EF6703B33A685CBD6DB13ABE /* String-Inspector.swift in Sources */,
+				299A9D4EEB9B7D50592BD8D0001CF7B5 /* Pods-Arsenal_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD94182AF3C3BAE89B4CD1D096A938EC /* Sources */ = {
+		9D52EB6DC396DB736093DC649A8E5030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53143BDCE66C845CE8C459F336A32EA9 /* Pods-Arsenal_Example-dummy.m in Sources */,
+				56D92201D7FDE9E3401B56A77B0E4CEC /* AppleTV.swift in Sources */,
+				02E1679721410CFB09A15D98EE85E456 /* Device.swift in Sources */,
+				68B3AEE13D08EBC9412D3A8AE0F32234 /* Extension-Collection.swift in Sources */,
+				2CEA5D85A92CD3C75326E17E6246F1AA /* Extension-UIImage.swift in Sources */,
+				60144C60C14C2F4950E56B65A421D71A /* iPad.swift in Sources */,
+				B01B6CAAE7A772EA94047CB1D51BC547 /* iPhone.swift in Sources */,
+				78BD07E912DA5D54331A39EF52CD16C1 /* iPhoneSreen.swift in Sources */,
+				ADAA7D483421C68E8EB77E2867636EAF /* iPod.swift in Sources */,
+				967CF67EC1422AC9EB2E375F492515E5 /* Listener.swift in Sources */,
+				E06F164B5571434A84C15C1B25465364 /* ListenerManager.swift in Sources */,
+				5C3FDE4173A84C3684CDDE7A1F531447 /* MSDateFormatter.swift in Sources */,
+				2AD43DD21A2511F2DD5C5510186E7549 /* NibLoadable.swift in Sources */,
+				82A7C92B0447EA7E979D0CA509A21CF8 /* Screen.swift in Sources */,
+				CA046ABA135AEA0871D299B3BB95792F /* ScreenMargin.swift in Sources */,
+				39D1C8B5477FEFED6D780F4709F13094 /* Signal.swift in Sources */,
+				71CC388B2806B15F761D51875153B8B5 /* String-Formatter.swift in Sources */,
+				07F37F3BF3C037FECC54BE39AD302001 /* String-Inspector.swift in Sources */,
+				8129FDC3C35A14D17A0A99324C64A49C /* SwiftArsenal-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,19 +537,20 @@
 			target = DC3CB8C5760EDDB936ABAF0566AC3799 /* Pods-Arsenal_Example */;
 			targetProxy = 2D9D8980807B7BFCEE9523FC663D264F /* PBXContainerItemProxy */;
 		};
-		9F0F8229F8853BDB2C5991366766B28F /* PBXTargetDependency */ = {
+		DA6775E726651AEA737DA20B447E7921 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Arsenal;
-			target = DE748E0B353BBCCD12F1A8CF5A20B199 /* Arsenal */;
-			targetProxy = 8F0ECEA30ED6ECE821E74983008793EA /* PBXContainerItemProxy */;
+			name = SwiftArsenal;
+			target = 086996CA89D328EE7350056353A4A8B2 /* SwiftArsenal */;
+			targetProxy = FED6CB17DECB10FCF52775390299B0DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		43B0912B9EB3AB16BE2A2FF2E49F9A36 /* Release */ = {
+		01F9A9543E2210D56E947684E16C393F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 020C49CC64CD15395EAC36C9C8208B71 /* Arsenal.release.xcconfig */;
+			baseConfigurationReference = F87C3447B17F1E8E646F1D62E746C568 /* Pods-Arsenal_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -561,24 +560,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Arsenal/Arsenal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Arsenal/Arsenal-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Arsenal/Arsenal.modulemap";
-				PRODUCT_MODULE_NAME = Arsenal;
-				PRODUCT_NAME = Arsenal;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -673,6 +672,103 @@
 			};
 			name = Release;
 		};
+		5EE1C2F9779C0F009D43B4E27E8F9BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FFD4D7D2641BCEF1D8E691C328AC228 /* SwiftArsenal.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftArsenal/SwiftArsenal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftArsenal/SwiftArsenal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftArsenal/SwiftArsenal.modulemap";
+				PRODUCT_MODULE_NAME = SwiftArsenal;
+				PRODUCT_NAME = SwiftArsenal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6314E476AFA8212E17C8D60DECF37FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C70FC9C86C7BE6A2C926404A082DD3 /* Pods-Arsenal_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EB7D7E3D4FC8283D36022B494E1437C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF0326A6DA8C875F392001AFC93D882 /* SwiftArsenal.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftArsenal/SwiftArsenal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftArsenal/SwiftArsenal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftArsenal/SwiftArsenal.modulemap";
+				PRODUCT_MODULE_NAME = SwiftArsenal;
+				PRODUCT_NAME = SwiftArsenal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -737,73 +833,6 @@
 			};
 			name = Debug;
 		};
-		CFB95AB961188A5B75A790C9F928CD1A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F87C3447B17F1E8E646F1D62E746C568 /* Pods-Arsenal_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EF08C2A3928DE9F2DA575075204BDB9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50C70FC9C86C7BE6A2C926404A082DD3 /* Pods-Arsenal_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Arsenal_Example/Pods-Arsenal_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F046EE5973446C56E48AB03D9A762905 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5FAB237B929A88E54545758BB6502060 /* Pods-Arsenal_Tests.debug.xcconfig */;
@@ -837,40 +866,18 @@
 			};
 			name = Debug;
 		};
-		F1F2EA0B5FACF0CB9BF3B7CC3FFB9D1A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94F6660AC445FE085FCB6AD7D5F368E9 /* Arsenal.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Arsenal/Arsenal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Arsenal/Arsenal-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Arsenal/Arsenal.modulemap";
-				PRODUCT_MODULE_NAME = Arsenal;
-				PRODUCT_NAME = Arsenal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2D0859632BD0DCAFDA7A20AFE7555C75 /* Build configuration list for PBXNativeTarget "Pods-Arsenal_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F9A9543E2210D56E947684E16C393F /* Debug */,
+				6314E476AFA8212E17C8D60DECF37FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -889,20 +896,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5BA05F8BFFEF30C18A7BCAE79C65D04 /* Build configuration list for PBXNativeTarget "Arsenal" */ = {
+		9C1E2EAF2C7D7D07D2F2A0554CE385BB /* Build configuration list for PBXNativeTarget "SwiftArsenal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1F2EA0B5FACF0CB9BF3B7CC3FFB9D1A /* Debug */,
-				43B0912B9EB3AB16BE2A2FF2E49F9A36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8A449FF0554B3E8DC100F4EB2711982 /* Build configuration list for PBXNativeTarget "Pods-Arsenal_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CFB95AB961188A5B75A790C9F928CD1A /* Debug */,
-				EF08C2A3928DE9F2DA575075204BDB9D /* Release */,
+				6EB7D7E3D4FC8283D36022B494E1437C /* Debug */,
+				5EE1C2F9779C0F009D43B4E27E8F9BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

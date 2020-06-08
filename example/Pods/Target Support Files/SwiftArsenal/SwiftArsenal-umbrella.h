@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ArsenalVersionNumber;
-FOUNDATION_EXPORT const unsigned char ArsenalVersionString[];
+FOUNDATION_EXPORT double SwiftArsenalVersionNumber;
+FOUNDATION_EXPORT const unsigned char SwiftArsenalVersionString[];
 

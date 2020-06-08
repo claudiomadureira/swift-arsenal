@@ -5,7 +5,7 @@
 //
 
 import XCTest
-import Arsenal
+import SwiftArsenal
 
 class StringFormatterTests: XCTestCase {
     

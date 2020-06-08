@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Arsenal
+## SwiftArsenal
 
 Copyright (c) 2020 claudiomadureira <claudiomsilvaf@gmail.com>
 

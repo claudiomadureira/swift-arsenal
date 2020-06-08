@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'Arsenal_Example' do
-  pod 'Arsenal', :path => '../'
+  pod 'SwiftArsenal', :path => '../'
 
   target 'Arsenal_Tests' do
     inherit! :search_paths
